@@ -152,10 +152,10 @@ span.size10 { font-size:3em; }
 	position:absolute;
 	top: 0px;
 	width: 100%;	
-	background: url('purple/bg.png');
+	background: url('./purple/bg.png');
 }
 #content {
-	background: url("purple/dark_bg.png") repeat scroll 0 0 transparent;
+	background: url("./purple/dark_bg.png") repeat scroll 0 0 transparent;
 	clear: both;
 	margin: 20px auto 70px;
 	overflow: hidden;
@@ -174,13 +174,13 @@ span.size10 { font-size:3em; }
 	width: 100%;
 	padding: 0px 0 0 0;
 	z-index: 1;
-	background: url('purple/hex_bg.png');
+	background: url('./purple/hex_bg.png');
 }
 #footer {
 	display: inline-block;
 	border-top: 1px solid #FF33CC;
 	background-color:  #000000;
-	background-image: url('purple/footer_bg.png');
+	background-image: url('./purple/footer_bg.png');
 	background-repeat: repeat-x;
 	width: 100%;
 	text-align: justify;
@@ -225,7 +225,7 @@ span.size10 { font-size:3em; }
 	width: 294px;
 	height: 100px;
     margin: 0 auto;
-	background: url('purple/logo.png') no-repeat top left;
+	background: url('./purple/logo.png') no-repeat top left;
 }	
 #logo a {
 	position:absolute;
@@ -246,7 +246,7 @@ span.size10 { font-size:3em; }
 	width: 100%;
 	text-align: center;
 	background-color: #000000;
-	background: url('purple/search_bar.png');
+	background: url('./purple/search_bar.png');
 	padding: 4px 0px;
 	-moz-box-shadow: 1px 1px 10px #000;
 	-webkit-box-shadow: 1px 1px 10px #000;
@@ -844,12 +844,12 @@ tr.group_torrent{
 .show_torrents {
 	width: 28px;
 	height: 28px;
-	background: url('purple/show.png') no-repeat center center;
+	background: url('./purple/show.png') no-repeat center center;
 }
 .hide_torrents {
 	width: 28px;
 	height: 28px;
-	background: url('purple/hide.png') no-repeat center center;
+	background: url('./purple/hide.png') no-repeat center center;
 }
 .show_torrents_link {
 	border: none;
@@ -889,14 +889,14 @@ ul.poll li.graph {
 .left_poll {
 	height: 14px;
 	width: 3px;
-	background: url('purple/bar_left.png') no-repeat center center;
+	background: url('./purple/bar_left.png') no-repeat center center;
 	float: left;
 	margin: 0px;
 	padding: 0 0 0 2px;
 }
 .center_poll {
 	height: 14px;
-	background: url('purple/bar_center.png') repeat center center;
+	background: url('./purple/bar_center.png') repeat center center;
 	float: left;
 	margin: 0px;
 	padding: 0px;
@@ -904,7 +904,7 @@ ul.poll li.graph {
 .right_poll {
 	height: 14px;
 	width: 4px;
-	background: url('purple/bar_right.png') no-repeat center center;
+	background: url('./purple/bar_right.png') no-repeat center center;
 	float: left;
 	margin: 0px;
 	padding: 0px;
@@ -912,24 +912,24 @@ ul.poll li.graph {
 
 /* Forum icons */
 
-.unread_locked_sticky{background: url("purple/locked_sticky_unread.png") no-repeat center center;}
-.read_locked_sticky{background: url("purple/locked_sticky_read.png") no-repeat center center;}
-.read_sticky{background: url("purple/sticky_read.png") no-repeat center center;}
-.unread_sticky{background: url("purple/sticky_unread.png") no-repeat center center;}
-.unread_locked{background: url("purple/locked_unread.png") no-repeat center center;}
-.read_locked{background: url("purple/locked_read.png") no-repeat center center;}
-.unread{background: url("purple/unread.png") no-repeat center center;}
-.read{background: url("purple/read.png") no-repeat center center;}
+.unread_locked_sticky{background: url("./purple/locked_sticky_unread.png") no-repeat center center;}
+.read_locked_sticky{background: url("./purple/locked_sticky_read.png") no-repeat center center;}
+.read_sticky{background: url("./purple/sticky_read.png") no-repeat center center;}
+.unread_sticky{background: url("./purple/sticky_unread.png") no-repeat center center;}
+.unread_locked{background: url("./purple/locked_unread.png") no-repeat center center;}
+.read_locked{background: url("./purple/locked_read.png") no-repeat center center;}
+.unread{background: url("./purple/unread.png") no-repeat center center;}
+.read{background: url("./purple/read.png") no-repeat center center;}
 
 /* We're going to opt for the category icon method for now, tags_* is also available */
 
-.cats_applications { width: 28px; height: 28px; background: url('purple/cat_app.png') no-repeat center center; }
-.cats_audiobooks { width: 28px; height: 28px; background: url('purple/cat_audiobook.png') no-repeat center center; }
-.cats_comedy { width: 28px; height: 28px; background: url('purple/cat_comedy.png') no-repeat center center; }
-.cats_comics { width: 28px; height: 28px; background: url('purple/cat_comics.png') no-repeat center center; }
-.cats_ebooks { width: 28px; height: 28px; background: url('purple/cat_ebook.png') no-repeat center center; }
-.cats_elearningvideos { width: 28px; height: 28px; background: url('purple/cat_elearn.png') no-repeat center center; }
-.cats_music { width: 28px; height: 28px; background: url('purple/cat_music.png') no-repeat center center; }
+.cats_applications { width: 28px; height: 28px; background: url('./purple/cat_app.png') no-repeat center center; }
+.cats_audiobooks { width: 28px; height: 28px; background: url('./purple/cat_audiobook.png') no-repeat center center; }
+.cats_comedy { width: 28px; height: 28px; background: url('./purple/cat_comedy.png') no-repeat center center; }
+.cats_comics { width: 28px; height: 28px; background: url('./purple/cat_comics.png') no-repeat center center; }
+.cats_ebooks { width: 28px; height: 28px; background: url('./purple/cat_ebook.png') no-repeat center center; }
+.cats_elearningvideos { width: 28px; height: 28px; background: url('./purple/cat_elearn.png') no-repeat center center; }
+.cats_music { width: 28px; height: 28px; background: url('./purple/cat_music.png') no-repeat center center; }
 
 /* tags_* genre icons*/
 
@@ -938,7 +938,7 @@ ul.poll li.graph {
 .cats_music {
 	width: 30px;
 	height: 30px;
-	background: url('purple/cat_music.png') top left no-repeat;
+	background: url('./purple/cat_music.png') top left no-repeat;
 }
 
 /* End no tag fix */
@@ -946,391 +946,391 @@ ul.poll li.graph {
 .tags_60s , .tags_1960s{
 	width: 30px;
 	height: 30px;
-	background: url('purple/60s.png') top left no-repeat;
+	background: url('./purple/60s.png') top left no-repeat;
 }
 .tags_70s , .tags_1970s{
 	width: 30px;
 	height: 30px;
-	background: url('purple/70s.png') top left no-repeat;
+	background: url('./purple/70s.png') top left no-repeat;
 }
 .tags_80s , .tags_1980s{
 	width: 30px;
 	height: 30px;
-	background: url('purple/80s.png') top left no-repeat;
+	background: url('./purple/80s.png') top left no-repeat;
 }
 .tags_90s , .tags_1990s{
 	width: 30px;
 	height: 30px;
-	background: url('purple/90s.png') top left no-repeat;
+	background: url('./purple/90s.png') top left no-repeat;
 }
 .tags_alternative {
 	width: 30px;
 	height: 30px;
-	background: url('purple/alternative.png') top left no-repeat;
+	background: url('./purple/alternative.png') top left no-repeat;
 }
 .tags_dark_ambient, .tags_ambient, .tags_drone {
 	width: 30px;
 	height: 30px;
-	background: url('purple/ambient.png') top left no-repeat;
+	background: url('./purple/ambient.png') top left no-repeat;
 }
 .tags_apps_linux, .tags_linux {
 	width: 30px;
 	height: 30px;
-	background: url('purple/linux.png') top left no-repeat;
+	background: url('./purple/linux.png') top left no-repeat;
 }
 .tags_mac, .tags_apps_mac {
 	width: 30px;
 	height: 30px;
-	background: url('purple/apple.png') top left no-repeat;
+	background: url('./purple/apple.png') top left no-repeat;
 }
 .tags_apps_sound {
 	width: 30px;
 	height: 30px;
-	background: url('purple/sound_apps.png') top left no-repeat;
+	background: url('./purple/sound_apps.png') top left no-repeat;
 }
 .tags_windows, .tags_apps_windows {
 	width: 30px;
 	height: 30px;
-	background: url('purple/windows.png') top left no-repeat;
+	background: url('./purple/windows.png') top left no-repeat;
 }
 .tags_bluegrass {
 	width: 30px;
 	height: 30px;
-	background: url('purple/bluegrass.png') top left no-repeat;
+	background: url('./purple/bluegrass.png') top left no-repeat;
 }
 .tags_blues {
 	width: 30px;
 	height: 30px;
-	background: url('purple/blues.png') top left no-repeat;
+	background: url('./purple/blues.png') top left no-repeat;
 }
 .tags_breaks {
 	width: 30px;
 	height: 30px;
-	background: url('purple/breaks.png') top left no-repeat;
+	background: url('./purple/breaks.png') top left no-repeat;
 }
 .tags_classical {
 	width: 30px;
 	height: 30px;
-	background: url('purple/classical.png') top left no-repeat;
+	background: url('./purple/classical.png') top left no-repeat;
 }
 .tags_country,.tags_alt_country  {
 	width: 30px;
 	height: 30px;
-	background: url('purple/country.png') top left no-repeat;
+	background: url('./purple/country.png') top left no-repeat;
 }
 .tags_dance {
 	width: 30px;
 	height: 30px;
-	background: url('purple/dance.png') top left no-repeat;
+	background: url('./purple/dance.png') top left no-repeat;
 }
 .tags_disco {
 	width: 30px;
 	height: 30px;
-	background: url('purple/disco.png') top left no-repeat;
+	background: url('./purple/disco.png') top left no-repeat;
 }
 .tags_drum_and_bass {
 	width: 30px;
 	height: 30px;
-	background: url('purple/dnb.png') top left no-repeat;
+	background: url('./purple/dnb.png') top left no-repeat;
 }
 .tags_electronic {
 	width: 30px;
 	height: 30px;
-	background: url('purple/electronic.png') top left no-repeat;
+	background: url('./purple/electronic.png') top left no-repeat;
 }
 .tags_emo, .tags_screamo {
 	width: 30px;
 	height: 30px;
-	background: url('purple/emo.png') top left no-repeat;
+	background: url('./purple/emo.png') top left no-repeat;
 }
 .tags_experimental, .tags_avantgarde, .tags_avant_garde {
 	width: 30px;
 	height: 30px;
-	background: url('purple/experimental.png') top left no-repeat;
+	background: url('./purple/experimental.png') top left no-repeat;
 }
 .tags_folk {
 	width: 30px;
 	height: 30px;
-	background: url('purple/folk.png') top left no-repeat;
+	background: url('./purple/folk.png') top left no-repeat;
 }
 .tags_funk {
 	width: 30px;
 	height: 30px;
-	background: url('purple/funk.png') top left no-repeat;
+	background: url('./purple/funk.png') top left no-repeat;
 }
 .tags_garage {
 	width: 30px;
 	height: 30px;
-	background: url('purple/garage.png') top left no-repeat;
+	background: url('./purple/garage.png') top left no-repeat;
 }
 .tags_grunge {
 	width: 30px;
 	height: 30px;
-	background: url('purple/grunge.png') top left no-repeat;
+	background: url('./purple/grunge.png') top left no-repeat;
 }
 .tags_hardcore {
 	width: 30px;
 	height: 30px;
-	background: url('purple/hardcore.png') top left no-repeat;
+	background: url('./purple/hardcore.png') top left no-repeat;
 }
 .tags_hardcore_dance {
 	width: 30px;
 	height: 30px;
-	background: url('purple/hardcore_dance.png') top left no-repeat;
+	background: url('./purple/hardcore_dance.png') top left no-repeat;
 }
 .tags_gangsta, .tags_rap, .tags_gangsta_rap, .tags_hip_hop {
 	width: 30px;
 	height: 30px;
-	background: url('purple/hiphop.png') top left no-repeat;
+	background: url('./purple/hiphop.png') top left no-repeat;
 }
 .tags_progressive_house, .tags_clubhouse, .tags_house {
 	width: 30px;
 	height: 30px;
-	background: url('purple/house.png') top left no-repeat;
+	background: url('./purple/house.png') top left no-repeat;
 }
 .tags_idm {
 	width: 30px;
 	height: 30px;
-	background: url('purple/idm.png') top left no-repeat;
+	background: url('./purple/idm.png') top left no-repeat;
 }
 .tags_indie_pop, .tags_indie_rock, .tags_indie {
 	width: 30px;
 	height: 30px;
-	background: url('purple/indie.png') top left no-repeat;
+	background: url('./purple/indie.png') top left no-repeat;
 }
 .tags_industrial {
 	width: 30px;
 	height: 30px;
-	background: url('purple/industrial.png') top left no-repeat;
+	background: url('./purple/industrial.png') top left no-repeat;
 }
 .tags_free_jazz, .tags_jazz, .tags_hard.bop, .tags_.bebop, .tags_swing, .tags_bop, .tags_fusion, .tags_jazz.fusion .tags_nu.jazz {
 	width: 30px;
 	height: 30px;
-	background: url('purple/jazz.png') top left no-repeat;
+	background: url('./purple/jazz.png') top left no-repeat;
 }
 .tags_jpop {
 	width: 30px;
 	height: 30px;
-	background: url('purple/jpop.png') top left no-repeat;
+	background: url('./purple/jpop.png') top left no-repeat;
 }
  .tags_kpop, tags_gayo {
 	width: 30px;
 	height: 30px;
-	background: url('purple/kpop.png') top left no-repeat;
+	background: url('./purple/kpop.png') top left no-repeat;
 }.tags_lounge {
 	width: 30px;
 	height: 30px;
-	background: url('purple/lounge.png') top left no-repeat;
+	background: url('./purple/lounge.png') top left no-repeat;
 }
 .tags_technical_death_metal, .tags_brutal_death_metal, .tags_death_grind, .tags_grindcore, .tags_metalcore, .tags_doom_metal, .tags_industrial_metal, .tags_black_metal, .tags_death_metal, .tags_metal, .tags_thrash, .tags_thrash_metal, .tags_hair_metal, .tags_glam_metal, .tags_progressive_metal, .tags_power_metal, .tags_heavy_metal, .tags_nwobhm {
 	width: 30px;
 	height: 30px;
-	background: url('purple/metal.png') top left no-repeat;
+	background: url('./purple/metal.png') top left no-repeat;
 }
 .tags_new_age {
 	width: 30px;
 	height: 30px;
-	background: url('purple/newage.png') top left no-repeat;
+	background: url('./purple/newage.png') top left no-repeat;
 }
 .tags_noise {
 	width: 30px;
 	height: 30px;
-	background: url('purple/noise.png') top left no-repeat;
+	background: url('./purple/noise.png') top left no-repeat;
 }
 .tags_ost, .tags_soundtrack {
 	width: 30px;
 	height: 30px;
-	background: url('purple/ost.png') top left no-repeat;
+	background: url('./purple/ost.png') top left no-repeat;
 }
 .tags_top_40, .tags_brit_pop, .tags_pop, .tags_pop_rock {
 	width: 30px;
 	height: 30px;
-	background: url('purple/pop.png') top left no-repeat;
+	background: url('./purple/pop.png') top left no-repeat;
 }
 .tags_post_rock {
 	width: 30px;
 	height: 30px;
-	background: url('purple/postrock.png') top left no-repeat;
+	background: url('./purple/postrock.png') top left no-repeat;
 }
 .tags_progressive_rock {
 	width: 30px;
 	height: 30px;
-	background: url('purple/prog.png') top left no-repeat;
+	background: url('./purple/prog.png') top left no-repeat;
 }
 .tags_psychedelic, .tags_psychedelic_rock {
 	width: 30px;
 	height: 30px;
-	background: url('purple/psychedelic.png') top left no-repeat;
+	background: url('./purple/psychedelic.png') top left no-repeat;
 }
 .tags_psytrance,.tags_goa, .tags_downtempo  {
 	width: 30px;
 	height: 30px;
-	background: url('purple/psytrance.png') top left no-repeat;
+	background: url('./purple/psytrance.png') top left no-repeat;
 }
 .tags_punk_rock, .tags_punk, .tags_post_punk, .tags_pop_punk {
 	width: 30px;
 	height: 30px;
-	background: url('purple/punk.png') top left no-repeat;
+	background: url('./purple/punk.png') top left no-repeat;
 }
 .tags_reggae, .tags_dancehall_reggae, .tags_dancehall  {
 	width: 30px;
 	height: 30px;
-	background: url('purple/reggae.png') top left no-repeat;
+	background: url('./purple/reggae.png') top left no-repeat;
 }
 .tags_rhythm_and_blues {
 	width: 30px;
 	height: 30px;
-	background: url('purple/rnb.png') top left no-repeat;
+	background: url('./purple/rnb.png') top left no-repeat;
 }
 .tags_classic_rock, .tags_hard_rock, .tags_rock , .tags_southern.rock , .tags_instrumental_rock{
 	width: 30px;
 	height: 30px;
-	background: url('purple/rock.png') top left no-repeat;
+	background: url('./purple/rock.png') top left no-repeat;
 }
 .tags_ska {
 	width: 30px;
 	height: 30px;
-	background: url('purple/ska.png') top left no-repeat;
+	background: url('./purple/ska.png') top left no-repeat;
 }
 .tags_soul {
 	width: 30px;
 	height: 30px;
-	background: url('purple/soul.png') top left no-repeat;
+	background: url('./purple/soul.png') top left no-repeat;
 }
 .tags_techno {
 	width: 30px;
 	height: 30px;
-	background: url('purple/techno.png') top left no-repeat;
+	background: url('./purple/techno.png') top left no-repeat;
 }
 .tags_trance {
 	width: 30px;
 	height: 30px;
-	background: url('purple/trance.png') top left no-repeat;
+	background: url('./purple/trance.png') top left no-repeat;
 }
 .tags_trip_hop {
 	width: 30px;
 	height: 30px;
-	background: url('purple/triphop.png') top left no-repeat;
+	background: url('./purple/triphop.png') top left no-repeat;
 }
 .tags_uk_garage {
 	width: 30px;
 	height: 30px;
-	background: url('purple/ukgarage.png') top left no-repeat;
+	background: url('./purple/ukgarage.png') top left no-repeat;
 }
 .tags_ethnic, .tags_flamenco, .tags_world_music  {
 	width: 30px;
 	height: 30px;
-	background: url('purple/world.png') top left no-repeat;
+	background: url('./purple/world.png') top left no-repeat;
 }
 .tags_latin, .tags_samba, .tags_tejano, .tags_mariachi, .tags_tango, .tags_rumba{
 	width: 30px;
 	height: 30px;
-	background: url('purple/latin.png') top left no-repeat;
+	background: url('./purple/latin.png') top left no-repeat;
 }
 .tags_lofi, .tags_lo_fi{
 	width: 30px;
 	height: 30px;
-	background: url('purple/lofi.png') top left no-repeat;
+	background: url('./purple/lofi.png') top left no-repeat;
 }
 .tags_dubstep{
 	width: 30px;
 	height: 30px;
-	background: url('purple/dubstep.png') top left no-repeat;
+	background: url('./purple/dubstep.png') top left no-repeat;
 }
 .tags_live, .tags_jam_band {
 	width: 30px;
 	height: 30px;
-	background: url('purple/live.png') top left no-repeat;
+	background: url('./purple/live.png') top left no-repeat;
 }
 .tags_acoustic {
 	width: 30px;
 	height: 30px;
-	background: url('purple/acoustic.png') top left no-repeat;
+	background: url('./purple/acoustic.png') top left no-repeat;
 }
 .tags_xmas, .tags_christmas, .tags_holiday {
 	width: 30px;
 	height: 30px;
-	background: url('purple/holiday.png') top left no-repeat;
+	background: url('./purple/holiday.png') top left no-repeat;
 }
 .tags_synthpop, .tags_synth_pop {
 	width: 30px;
 	height: 30px;
-	background: url('purple/synthpop.png') top left no-repeat;
+	background: url('./purple/synthpop.png') top left no-repeat;
 }
 .tags_new_wave {
 	width: 30px;
 	height: 30px;
-	background: url('purple/newwave.png') top left no-repeat;
+	background: url('./purple/newwave.png') top left no-repeat;
 }
 .tags_goth, .tags_gothic, .tags_gothic_rock, .tags_goth_rock, .tags_gothic_metal, .tags_goth_metal, .tags_darkwave  {
 	width: 30px;
 	height: 30px;
-	background: url('purple/goth.png') top left no-repeat;
+	background: url('./purple/goth.png') top left no-repeat;
 }
 .tags_musical {
 	width: 30px;
 	height: 30px;
-	background: url('purple/musical.png') top left no-repeat;
+	background: url('./purple/musical.png') top left no-repeat;
 }
 .tags_rockabilly , .tags_psychobilly {
 	width: 30px;
 	height: 30px;
-	background: url('purple/rockabilly.png') top left no-repeat;
+	background: url('./purple/rockabilly.png') top left no-repeat;
 }
 .tags_easy_listening , .tags_soft_rock, .tags_adult_contemporary {
 	width: 30px;
 	height: 30px;
-	background: url('purple/easylistening.png') top left no-repeat;
+	background: url('./purple/easylistening.png') top left no-repeat;
 }
 .tags_asian , .tags_china, .tags_chinese, .tags_taiwanese,.tags_taiwan, .tags_mandarin  {
 	width: 30px;
 	height: 30px;
-	background: url('purple/asian.png') top left no-repeat;
+	background: url('./purple/asian.png') top left no-repeat;
 }
 .tags_kids, .tags_children, .tags_disney, .tags_educational {
 	width: 30px;
 	height: 30px;
-	background: url('purple/kids.png') top left no-repeat;
+	background: url('./purple/kids.png') top left no-repeat;
 }
 .tags_vocal, .tags_choir, .tags_choral, .tags_acappella, .tags_acapella, .tags_a_capella {
 	width: 30px;
 	height: 30px;
-	background: url('purple/vocal.png') top left no-repeat;
+	background: url('./purple/vocal.png') top left no-repeat;
 }
 .tags_oldies, .tags_50s {
 	width: 30px;
 	height: 30px;
-	background: url('purple/oldies.png') top left no-repeat;
+	background: url('./purple/oldies.png') top left no-repeat;
 }
 .tags_christian, .tags_evangelical, .tags_post_gospel{
 	width: 30px;
 	height: 30px;
-	background: url('purple/post_gospel.png') top left no-repeat;
+	background: url('./purple/post_gospel.png') top left no-repeat;
 }
 .tags_instrumental{
 	width: 30px;
 	height: 30px;
-	background:url('purple/instrumental.png') top left no-repeat;
+	background:url('./purple/instrumental.png') top left no-repeat;
 }
 .tags_8bit, .tags_chiptunes, .tags_8_bit, .tags_chiptune, .tags_video_game{
 	width: 30px;
 	height: 30px;
-	background: url('purple/8bit.png') top left no-repeat;
+	background: url('./purple/8bit.png') top left no-repeat;
 }
 .tags_outsider{
 	width: 30px;
 	height: 30px;
-	background: url('purple/outsider.png') top left no-repeat;
+	background: url('./purple/outsider.png') top left no-repeat;
 }
 .tags_africa,.tags_afropop,.tags_afro_pop,.tags_afrobeat,.tags_afro_beat,.tags_african{
 	width: 30px;
 	height: 30px;
-	background: url('purple/africa.png') top left no-repeat;
+	background: url('./purple/africa.png') top left no-repeat;
 }
 .tags_shoegaze,.tags_shoegazer,.tags_shoe_gaze,.tags_dreampop,.tags_dream_pop{
 	width: 30px;
 	height: 30px;
-	background: url('purple/shoegaze.png') top left no-repeat;
+	background: url('./purple/shoegaze.png') top left no-repeat;
 }
 
 /*snatched, seeders, leechers icons*/
@@ -1339,7 +1339,7 @@ img[src$='/images/snatched.png'] {
 padding-right: 15px;
 content:" ";
 display:block;
-background: url('purple/snatched.png')no-repeat center center;
+background: url('./purple/snatched.png')no-repeat center center;
 width:0px;
 height: 15px;
 }
@@ -1347,7 +1347,7 @@ img[src$='/images/seeders.png'] {
 padding-right: 11px;
 content:"";
 display:block;
-background: url('purple/seeders.png')no-repeat center center;
+background: url('./purple/seeders.png')no-repeat center center;
 width:0px;
 height: 15px;
 }
@@ -1355,7 +1355,7 @@ img[src$='/images/leechers.png'] {
 padding-right: 11px;
 content:"";
 display:block;
-background: url('purple/leechers.png')no-repeat center center;
+background: url('./purple/leechers.png')no-repeat center center;
 width:0px;
 height: 15px;
 }
@@ -1365,14 +1365,14 @@ img[src$='/images/go_last_read.png'] {
 padding-right: 17px;
 content:"";
 display:inline;
-background: url('purple/go_last_read.png')no-repeat center center;
+background: url('./purple/go_last_read.png')no-repeat center center;
 width:0px;
 height: 15px;
 }
 
 /*last_read arrow, forums.php*/
 
-.last_read { width: 15px; height: 15px; background: url('purple/go_last_read.png') no-repeat center center; margin-left: 5px; margin-left: 5px;}
+.last_read { width: 15px; height: 15px; background: url('./purple/go_last_read.png') no-repeat center center; margin-left: 5px; margin-left: 5px;}
 .last_read a { border: none; width: 100%; height: 100%; display: block; }
 .last_read a:hover { border: none; }
 
