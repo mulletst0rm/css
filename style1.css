@@ -329,11 +329,12 @@ span.size10 { font-size:3em; }
 	color: #E565FF;
 }
 #userinfo_major{
-	font-size: 1.2em;
 	position: absolute;
-	top: 50px;
-    	right: 30px;
-	/*width: 200px;*/
+	top: 88px;
+	right:30px;
+	padding: 0.1em 0;
+	text-align: right;
+	font-size: 1.2em;
 }
 #userinfo_minor{
 	position: absolute;
