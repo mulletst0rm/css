@@ -331,9 +331,9 @@ span.size10 { font-size:3em; }
 #userinfo_major{
 	font-size: 1.2em;
 	position: absolute;
-	top: 88px;
-    right: 0px;
-	width: 200px;
+	top: 50px;
+    	right: 0px;
+	/*width: 200px;*/
 }
 #userinfo_minor{
 	position: absolute;
