@@ -160,13 +160,13 @@ span.size10 { font-size:3em; }
 	/*background: url("./purple/dark_bg.png") repeat scroll 0 0 transparent;*/
 	background: url("./purple/bg.png") repeat scroll 0 0 transparent;
 	clear: both;
-	margin: 20px auto 70px;
+	margin: 20px auto 0px;
 	overflow: hidden;
-	padding: 10px;
+	padding-top: 40px;
 	position: relative;
 	text-align: center;
-	top: 26px;
-	width: 950px;
+	top: 0px;
+	width: 1100px;
 }
 #header {
 	position:relative;
@@ -174,21 +174,21 @@ span.size10 { font-size:3em; }
 	top: 0px;
 	padding-top: 14px;
     	margin: 0 auto;
-    	width: 960px;
+    	width: 1100px;
     	height: 154px;
 	z-index: 1;
 	background: url('./purple/hex_bg.png');
 }
 #footer {
-	display: inline-block;
+	display: block;
 	border-top: 1px solid #FF33CC;
 	background-color:  #000000;
 	background-image: url('./purple/footer_bg.png');
 	background-repeat: repeat-x;
-	width: 100%;
+	width: 1100px;
 	text-align: justify;
 	padding: 1.2em 0;
-	margin-top:26px;
+	margin: 0 auto;
 	min-height: 75px;
 }
 #footer p {
