@@ -356,7 +356,7 @@ span.size10 { font-size:3em; }
 }
 #menu {
 	position: absolute;
-	top: 125px;
+	top: 133px;
 	width: 100%;
 	padding: 1em 0;
 	text-align: center;
@@ -367,7 +367,7 @@ span.size10 { font-size:3em; }
 }
 #menu ul li {
 	position: relative;
-	display: inline-block;
+	display: inline;
 	padding: 3px 0;	
 	margin: 2px;
 	background-color:#660066;
