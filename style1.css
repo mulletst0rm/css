@@ -348,7 +348,7 @@ span.size10 { font-size:3em; }
 
 #userinfo ul li {
 	position: relative;
-	display: inline;
+	display: inline-block;
 	margin: 0 0.1em;
 	line-height: 20px;
 	vertical-align: middle;
@@ -367,7 +367,7 @@ span.size10 { font-size:3em; }
 }
 #menu ul li {
 	position: relative;
-	display: inline;
+	display: inline-block;
 	padding: 3px 0;	
 	margin: 2px;
 	background-color:#660066;
