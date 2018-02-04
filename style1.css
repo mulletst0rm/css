@@ -11,10 +11,15 @@ html {
 body {
 	width: 100%;
 	font-family: Tahoma, Helvetica, Verdana, Arial, sans-serif;
-	font-size: 8pt;
+	font-size: 9pt;
 	color: #FF66CC;
-	min-width: 900px;
-	background: #000000;
+	background-color: #000;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#09000a+4,31013a+47,0c000c+100 */
+background: rgb(9,0,10); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(9,0,10,1) 4%, rgba(49,1,58,1) 47%, rgba(12,0,12,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(9,0,10,1) 4%,rgba(49,1,58,1) 47%,rgba(12,0,12,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(9,0,10,1) 4%,rgba(49,1,58,1) 47%,rgba(12,0,12,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09000a', endColorstr='#0c000c',GradientType=0 ); /* IE6-9 */
 }
 
 /* Common elements */
@@ -149,12 +154,10 @@ span.size10 { font-size:3em; }
 /* Layout (Every page) */
 
 #wrapper {
-	position:absolute;
 	top: 0px;
-	width: 100%;	
-	background-color: #444;
-	background: url("./purple/dark_bg.png") repeat scroll 0 0 transparent;
-	/*background: url('./purple/bg.png');*/
+	width: 1100px;
+	margin: 0 auto;
+	 box-shadow: 0 0 100px #E565FF;
 }
 #content {
 	/*background: url("./purple/dark_bg.png") repeat scroll 0 0 transparent;*/
@@ -169,7 +172,7 @@ span.size10 { font-size:3em; }
 	width: 1100px;
 }
 #header, #footer, #content {
-	 box-shadow: -7px 0 15px -5px #E565FF, 7px 0 15px -5px #E565FF;
+	
 	
 }
 #header {
