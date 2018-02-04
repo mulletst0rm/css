@@ -246,6 +246,7 @@ span.size10 { font-size:3em; }
     	width: 100%;
     	text-align: center;
     	background-color: #000000;
+	background: url('./purple/search_bar.png');
     	padding: 4px 0px;
     	-moz-box-shadow: 1px 1px 10px #000;
     	-webkit-box-shadow: 1px 1px 10px #000;
