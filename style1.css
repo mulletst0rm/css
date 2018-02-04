@@ -169,10 +169,10 @@ span.size10 { font-size:3em; }
 	position:relative;
 	background-position: left bottom;
 	top: 0px;
-	left: 0 px;
-	height: 165px;
-	width: 100%;
-	padding: 0px 0 0 0;
+	padding-top: 14px;
+    	margin: 0 auto;
+    	width: 960px;
+    	height: 154px;
 	z-index: 1;
 	background: url('./purple/hex_bg.png');
 }
@@ -242,15 +242,14 @@ span.size10 { font-size:3em; }
 #searchbars {
 	position: relative;
 	display: block;
-	top:164px;
-	width: 100%;
-	text-align: center;
-	background-color: #000000;
-	background: url('./purple/search_bar.png');
-	padding: 4px 0px;
-	-moz-box-shadow: 1px 1px 10px #000;
-	-webkit-box-shadow: 1px 1px 10px #000;
-	box-shadow: 1px 1px 10px #000;	
+	top: 150px;
+    	width: 100%;
+    	text-align: center;
+    	background-color: #000000;
+    	padding: 4px 0px;
+    	-moz-box-shadow: 1px 1px 10px #000;
+    	-webkit-box-shadow: 1px 1px 10px #000;
+    	box-shadow: 1px 1px 10px #000;
 }
 #searchbars input {	
 	margin: 2px 2px 2px 2px;
@@ -309,10 +308,13 @@ span.size10 { font-size:3em; }
 #userinfo_username {
 	position: absolute;
 	top: 88px;
-    left: 50px;
+    	left: 50px;
 	font-size: 1.3em;
 	font-weight: bold;
 	left: 50px;
+}
+#userinfo_username li {
+    display: inline-block;
 }
 #userinfo_stats {
 	position: absolute;
