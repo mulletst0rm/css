@@ -155,7 +155,7 @@ span.size10 { font-size:3em; }
 	/*background: url('./purple/bg.png');*/
 }
 #content {
-	background: url("./purple/dark_bg.png") repeat scroll 0 0 transparent;
+	/*background: url("./purple/dark_bg.png") repeat scroll 0 0 transparent;*/
 	background: url("./purple/bg.png") repeat scroll 0 0 transparent;
 	clear: both;
 	margin: 20px auto 70px;
