@@ -538,9 +538,9 @@ p.min_padding {
 	text-align: left;
 }
 .main_column {
-   /* margin: 0 0 65px 0;*/
+    margin: 0 0 65px 0;
     text-align: left;
-    width: 592px;
+    width: 575px;
 }
 .main_column .box, .main_column table {
     margin-bottom: 10px;
