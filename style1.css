@@ -865,7 +865,7 @@ table.grouping{
 	margin-left: auto;
 }
 #torrents form>table.border{
-	width:833px;
+	width: 1000px;
 }
 #torrents .body{
 	width:600px;
@@ -884,7 +884,7 @@ table.cat_list  {
 	margin-bottom: 4px!important;
 }
 .filter_torrents  table{
-	width: 850px;
+	width: 900px;
 	margin-right:auto;
 	margin-left: auto;
 	margin-bottom:6px; 
