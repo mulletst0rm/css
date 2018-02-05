@@ -15,11 +15,11 @@ body {
 	color: #FF66CC;
 	background-color: #000;
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#09000a+4,31013a+47,0c000c+100 */
-background: rgb(9,0,10); /* Old browsers */
+/*background: rgb(9,0,10); /* Old browsers */
 background: -moz-linear-gradient(top, rgba(9,0,10,1) 4%, rgba(49,1,58,1) 47%, rgba(12,0,12,1) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top, rgba(9,0,10,1) 4%,rgba(49,1,58,1) 47%,rgba(12,0,12,1) 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, rgba(9,0,10,1) 4%,rgba(49,1,58,1) 47%,rgba(12,0,12,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09000a', endColorstr='#0c000c',GradientType=0 ); /* IE6-9 */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09000a', endColorstr='#0c000c',GradientType=0 );*/ /* IE6-9 */
 }
 
 /* Common elements */
