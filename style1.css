@@ -1499,3 +1499,23 @@ height: 15px;
 	overflow: auto;
 }
 
+.autocomplete-suggestions {
+	margin-top: 5px;
+	border: 1px solid #909;
+	overflow: auto;
+	background-color: #000;
+}
+.autocomplete-suggestion {
+	padding: 2px 5px;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor: pointer;
+}
+.autocomplete-selected {
+	transition: all .1s linear;
+	background-color: #404;
+}
+.autocomplete-suggestions strong {
+	font-weight: normal;
+	color: #E565FF;
+}
