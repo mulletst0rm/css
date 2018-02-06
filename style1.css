@@ -524,6 +524,7 @@ p.min_padding {
 	padding: 5px 10px 10px 10px;
 	text-align: left;
 	/*! width: 700px; */
+	vertical-align: top;
 }
 .box {
     font-size: 10pt;
@@ -742,9 +743,10 @@ table.forum_unread {
     border: 0 none;
     padding: 0;
 	min-width: 150px;
+    max-width: 150px;
 }
 .forum_post  td.avatar img{
-	width:100%;
+	width: 150px;
 }
 td.cats_col{
 	width:25px;
@@ -1499,23 +1501,3 @@ height: 15px;
 	overflow: auto;
 }
 
-.autocomplete-suggestions {
-	margin-top: 5px;
-	border: 1px solid #909;
-	overflow: auto;
-	background-color: #000;
-}
-.autocomplete-suggestion {
-	padding: 2px 5px;
-	white-space: nowrap;
-	overflow: hidden;
-	cursor: pointer;
-}
-.autocomplete-selected {
-	transition: all .1s linear;
-	background-color: #404;
-}
-.autocomplete-suggestions strong {
-	font-weight: normal;
-	color: #E565FF;
-}
