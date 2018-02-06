@@ -6,6 +6,14 @@
 	margin: 0em;
 }
 html {
+	width: 100%;/*fuschia_dark.css*/
+/* Global */
+
+* {
+	padding: 0em;
+	margin: 0em;
+}
+html {
 	width: 100%;
 }
 body {
@@ -1611,18 +1619,17 @@ input[type="submit"], input[type="button"]{
   background-image: -ms-linear-gradient(top, #909, #707);
   background-image: -o-linear-gradient(top, #909, #707);
   background-image: linear-gradient(to bottom, #909, #707);
-  -webkit-border-radius: 7;
-  -moz-border-radius: 7;
-  border-radius: 7px;
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
   -webkit-box-shadow: 0px 1px 14px #eb32eb;
   -moz-box-shadow: 0px 1px 14px #eb32eb;
   box-shadow: 0px 1px 14px #eb32eb;
   font-family: Arial;
   color: #ffc9ff;
   font-size: 14px;
-  padding: 4px 12px 4px 12px;
+  padding: 8px 18px 8px 18px;
   text-decoration: none;
-  margin-left: 10px;
 }
 input[type="submit"]:hover, input[type="button"]:hover{
 	background: #d400d4;
@@ -2278,7 +2285,7 @@ input.hidden {
 
 table.forum_post {
 	margin: 10px 0px;
-	border: 2px solid #FF66CC;
+	/*! border: 2px solid #FF66CC; */
 }
 table.forum_post td.body {
 	max-width:690px;
