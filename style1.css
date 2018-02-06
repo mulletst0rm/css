@@ -351,10 +351,20 @@ span.size10 { font-size:3em; }
 #userinfo_minor::before {
 	content: "\2261";
 	font-size: 4em;
-	color: #E565FF;
+	color: #f2b3ff;
 	width: 100px;
 	height: 34px;
 	font-weight: bold;
+	text-shadow: 0 0 10px #f1f, 0 0 2px #808, 0 0 2px #fff, 0 0 1px #d518ff, 0 0 30px #ff18f3, 0 0 40px #eb13e7, 0 0 55px #49ff18, 0 0 75px #f118ff;
+}
+#userinfo_minor:hover::before {
+	content: "\2261";
+	font-size: 4em;
+	color: #f2b3ff;
+	width: 100px;
+	height: 34px;
+	font-weight: bold;
+	text-shadow: 0 0 20px #f1f, 0 0 6px #808, 0 0 6px #fff, 0 0 4px #d518ff, 0 0 30px #ff18f3, 0 0 40px #eb13e7, 0 0 55px #49ff18, 0 0 75px #f118ff;
 }
 #userinfo_minor {	
 	position: absolute;
