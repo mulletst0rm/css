@@ -893,12 +893,14 @@ table.cat_list  {
 	vertical-align:top;
 	background-color: #707;
 }
-.torrent_table tr.group_torrent {
-	/*! background-color: #660066; */
+
+#top10 tr:nth-child(even),#torrents tr:nth-child(even) {
+    background-color: #404
 }
 tr.group_torrent{
-	background-color: #000000;
+	background-color: #000000!important;
 }
+tr.group {background-color: #707!important}
 .torrent_table div.tags {
 	font-weight:normal;
 }
