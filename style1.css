@@ -191,7 +191,7 @@ span.size10 { font-size:3em; }
 	text-align: justify;
 	padding: 1.2em 0;
 	margin: 0 auto;
-	min-height: 75px;
+	min-height: 100px;
 }
 #index #footer {
 	 min-height: 200px;
@@ -921,8 +921,8 @@ table.cat_list  {
 #top10 tr:nth-child(odd) {
 	 background-color: #606
 }
-#torrents tr:nth-child(odd) {
-    background-color: #606
+#torrents tr:nth-child(even) {
+    background-color: #404
 }
 #torrents table.layout tr td {
 	background-color: #000;
