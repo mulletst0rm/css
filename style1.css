@@ -1529,3 +1529,5 @@ height: 15px;
 	color: #E565FF;
 }
 
+table#recent_snatches, table#recent_uploads {table-layout: fixed;}
+recent_uploads
