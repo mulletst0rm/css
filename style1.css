@@ -812,7 +812,7 @@ tr.unreadpm {
 	background-color: #000000;
 }
 #requests td{
-	/*! background-color: #000000; */
+	background-color: #000000;
 }
 #userform {
 	background-color:#000000;
@@ -918,12 +918,15 @@ table.cat_list  {
 	vertical-align:top;
 	background-color: #000;
 }
-
-#top10 tr:nth-child(even),#torrents tr:nth-child(even), #requests tr:nth-child(odd) {
+#top10 tr:nth-child(odd) {
+	 background-color: #606
+}
+#torrents tr:nth-child(even) {
     background-color: #404
 }
-#torrents table.layout tr td {background-color: #000;}
-#requests table.layout tr td {background-color: #000;}
+#torrents table.layout tr td {
+	background-color: #000;
+}
 tr.group_torrent{
 	background-color: #000000!important;
 }
