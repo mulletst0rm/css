@@ -753,6 +753,7 @@ td.cats_col{
 }
 #forums .thin td{
 font-size: 1em;
+vertical-align: top;
 }
 #forums .thin a{
 	font-size: .9em;
