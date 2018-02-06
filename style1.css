@@ -528,7 +528,7 @@ p.min_padding {
 .head {
 	padding: 8px !important;
 	/*! border-bottom: 1px solid #FF66CC; */
-	background-color: #660066;
+	background-color: #505;
 	color: #FF66CC;
 	text-align: left;
 }
@@ -616,7 +616,7 @@ td {
 	font-weight: bold;
 }
 tr.colhead_dark td {
-    background-color: #660066!important;
+    background-color: #505 !important;
     font-family: Tahoma, Helvetica, Verdana, Arial, sans-serif;
     font-size: 10pt;
 	vertical-align:bottom;
@@ -891,7 +891,7 @@ table.cat_list  {
 .torrent_table tr.torrent, .torrent_table tr.group {
 	font-weight:bold;
 	vertical-align:top;
-	background-color: #000000;
+	background-color: #707;
 }
 .torrent_table tr.group_torrent {
 	/*! background-color: #660066; */
