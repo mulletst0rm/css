@@ -623,7 +623,7 @@ td {
 	padding: 0 10px;
 	text-align: left;/*no bkgd color!*/
 	height: 30px;
-	/*! vertical-align: middle; */
+	vertical-align: middle;
 }
 .colhead td{
 	background-color: #505 !important;
@@ -731,7 +731,7 @@ table.forum_post {
 	border: 2px solid #FF66CC;
 }
 table.forum_post td.body {
-	 max-width:690px; 
+	max-width:690px;
 }
 table.forum_index{
 	margin-bottom:10px;
@@ -739,9 +739,12 @@ table.forum_index{
 table.forum_unread {
 	border: 4px solid;
 }
-td.avatar {
-    width: 150px;
-    padding: 0px;
+.forum_post td.avatar{
+    border: 0 none;
+    padding: 0;
+	min-width: 150px;
+    max-width: 150px;
+    vertical-align: top;
 }
 .forum_post  td.avatar img{
 	width: 150px;
@@ -750,7 +753,7 @@ td.cats_col{
 	width:25px;
 }
 #forums .thin td{
-/*! font-size: 1em; */
+font-size: 1em;
 }
 #forums .thin a{
 	font-size: .9em;
@@ -1497,5 +1500,25 @@ height: 15px;
 	padding: 0px;
 	z-index:1002;
 	overflow: auto;
+}
+.autocomplete-suggestions {
+	margin-top: 5px;
+	border: 1px solid #909;
+	overflow: auto;
+	background-color: #000;
+}
+.autocomplete-suggestion {
+	padding: 2px 5px;
+	white-space: nowrap;
+	overflow: hidden;
+	cursor: pointer;
+}
+.autocomplete-selected {
+	transition: all .1s linear;
+	background-color: #404;
+}
+.autocomplete-suggestions strong {
+	font-weight: normal;
+	color: #E565FF;
 }
 
