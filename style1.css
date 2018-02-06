@@ -894,7 +894,7 @@ table.cat_list  {
 	background-color: #000000;
 }
 .torrent_table tr.group_torrent {
-	background-color: #660066;
+	/*! background-color: #660066; */
 }
 tr.group_torrent{
 	background-color: #000000;
