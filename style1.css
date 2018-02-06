@@ -14,12 +14,6 @@ body {
 	font-size: 10pt;
 	color: #FF66CC;
 	background-color: #000;
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#09000a+4,31013a+47,0c000c+100 */
-/*background: rgb(9,0,10); /* Old browsers */
-background: -moz-linear-gradient(top, rgba(9,0,10,1) 4%, rgba(49,1,58,1) 47%, rgba(12,0,12,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(9,0,10,1) 4%,rgba(49,1,58,1) 47%,rgba(12,0,12,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(9,0,10,1) 4%,rgba(49,1,58,1) 47%,rgba(12,0,12,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09000a', endColorstr='#0c000c',GradientType=0 );*/ /* IE6-9 */
 }
 
 /* Common elements */
@@ -478,8 +472,9 @@ span.size10 { font-size:3em; }
 /* Layout (Any page) */
 
 .thin {
-	width: 850px;
-	margin: 0px auto;
+    width: 850px;
+    margin: 0px auto;
+    /*! background-color: #000; */
 }
 div.linkbox {
     font-family: "Courier New",monospace;
@@ -510,13 +505,13 @@ p.min_padding {
 .body {
 	padding: 5px 10px 10px 10px;
 	text-align: left;
-	width: 700px;
+	/*! width: 700px; */
 }
-.box {	
-	font-size: 8pt;
-	background-color: #000000;
-	border: 1px solid #FF66CC;
-	text-align: left;
+.box {
+    font-size: 10pt;
+    background-color: #000;
+    margin-bottom: 10px;
+    text-align: left;
 }
 .sidebar {
 	float: right;
@@ -532,15 +527,13 @@ p.min_padding {
 }
 .head {
 	padding: 8px !important;
-	border-bottom: 1px solid #FF66CC;
+	/*! border-bottom: 1px solid #FF66CC; */
 	background-color: #660066;
 	color: #FF66CC;
 	text-align: left;
 }
 .main_column {
-    margin: 0 0 65px 0;
-    text-align: left;
-    width: 555px;
+    width: 592px;
 }
 .main_column .box, .main_column table {
     margin-bottom: 10px;
@@ -564,6 +557,7 @@ p.min_padding {
 }
 .pad{
 	margin:10px;
+	padding-bottom: 10px;
 }
 .pad td{
 	background-color: #000000;
@@ -590,7 +584,7 @@ table {
 	margin-right:auto;
 	margin-left: auto;
 	border-collapse: collapse;
-	border: 2px solid #FF66CC;
+	/*! border: 2px solid #FF66CC; */
 	background-color: #000000;
 }
 .forum_list tr.rowa>td, .forum_list tr.rowb>td{
@@ -603,14 +597,16 @@ tr.rowb {
 	background-color: #000000;
 }
 td {
-	border: 1px solid #FF66CC;
-	padding: 5px;
+	/*! border: 1px solid #FF66CC; */
+	padding: 0 10px;
 	text-align: left;/*no bkgd color!*/
+	height: 30px;
+	vertical-align: middle;
 }
 .colhead td{
-	background-color: #880088!important;
+	background-color: #880088 !important;
 	color: #FF66CC;
-	font-size: 9pt!important;
+	font-size: 12pt !important;
 	font-weight: bold;
 	padding-top: 10px;
 }
@@ -736,7 +732,7 @@ td.cats_col{
 font-size: 1em;
 }
 #forums .thin a{
-	font-size: 1em;
+	font-size: .9em;
 }
 #forums table.border{
 	background-color: #000000;
@@ -745,7 +741,7 @@ td.label {
 	font-weight: bold;
 	text-align: right;
 	width: 150px;
-    background-color: #993399!important;
+    background-color: #880088 !important;
 }
 blockquote {
     background-color: #441144;
@@ -766,25 +762,21 @@ blockquote.log_bad, blockquote.log_score {
     border: 1px solid #FF66CC;
 }
 table.forum_index tr.rowb td:first-child {
-    padding: 9px;
+    padding: 0px 12px 0px 20px;
 }
 table.forum_list tr.rowb td:first-child {
     padding: 9px;
 }
 /* Misc */
 
-table #collages{
-	margin-top:10px;
-}
+
 #collages table.border{
 	background-color: #000000;
 }
 #collage_table td{
 	background-color: #000000;
 }
-#collage_table img{
-	width: 125px;
-}
+
 tr.unreadpm {
 	background-color:#996699!important;
 }
@@ -855,12 +847,8 @@ tr.unreadpm {
 tr.discog{
 	background-color: #000000;
 }
-table.grouping{
-	width:1000px;
-}
-table#discog_table.grouping{
-	width:700px;
-}
+
+
 .show_torrents_link {
 	border: none;
 	width: 28px;
@@ -873,10 +861,10 @@ table#discog_table.grouping{
 	margin-left: auto;
 }
 #torrents form>table.border{
-	width: 1000px;
+	/*! width: 1000px; */
 }
 #torrents .body{
-	width:600px;
+	width:580px;
 }
 td.edition_info {
     background-color: #808;
@@ -892,7 +880,6 @@ table.cat_list  {
 	margin-bottom: 4px!important;
 }
 .filter_torrents  table{
-	width: 900px;
 	margin-right:auto;
 	margin-left: auto;
 	margin-bottom:6px; 
