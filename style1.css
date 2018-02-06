@@ -473,7 +473,7 @@ span.size10 { font-size:3em; }
 	padding: 0.2em 1.1em;
 }
 
-#index #nav_index, #torrents #nav_torrents, #collage #nav_collages, #requests #nav_requests, #forums #nav_forums, #chat #nav_irc, #top10 #nav_top10, #rules #nav_rules, #wiki #nav_wiki, #staff #nav_staff, #userhistory #nav_forums, #logchecker #nav_logchecker, #better #nav_better{	
+#index #nav_index, #torrents #nav_torrents, #collage #nav_collages, #requests #nav_requests, #forums #nav_forums, #chat #nav_irc, #top10 #nav_top10, #rules #nav_rules, #wiki #nav_wiki, #staff #nav_staff {	
 	position: relative;
 	display: inline;
 	padding: 3px 0;
