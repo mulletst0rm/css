@@ -632,10 +632,11 @@ td {
 	font-weight: bold;
 	padding-top: 10px;
 }
-.colhead .sign {
-	padding: 0px 8px 0px 8px;
+tr.colhead td.sign {
+	padding: 0px 8px 0px 25px;
 	font-size: 12pt;
 	font-weight: bold;
+	text-align: right;
 }
 tr.colhead_dark td {
     background-color: #505 !important;
@@ -1529,7 +1530,13 @@ height: 15px;
 
 table#recent_snatches, table#recent_uploads {table-layout: fixed;}
 
-#torrents tr.torrent {
+#torrents tr.torrent:first-of-type {
 	background-color: #707;
+}
+tr.colhead td:nth-child(3) { 
+	text-align: left;
+}
+tr.colhead td { 
+	text-align: right;
 }
 
