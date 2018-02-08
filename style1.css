@@ -632,11 +632,10 @@ td {
 	font-weight: bold;
 	padding-top: 10px;
 }
-tr.colhead td.sign {
-	padding: 0px 8px 0px 25px;
+.colhead .sign {
+	padding: 0px 8px 0px 8px;
 	font-size: 12pt;
 	font-weight: bold;
-	text-align: right;
 }
 tr.colhead_dark td {
     background-color: #505 !important;
@@ -810,6 +809,18 @@ tr.unreadpm {
 }
 #requests td{
 	/*! background-color: #000000; */
+}
+table#recent_snatches, table#recent_uploads {
+	table-layout: fixed;
+}
+#torrents tr.torrent {
+	background-color: #707;
+}
+#staff table {
+	table-layout: fixed; 
+}
+#staff table.staff tr td:nth-child(3) {
+    white-space: pre-wrap;
 }
 #userform {
 	background-color:#000000;
@@ -1528,15 +1539,5 @@ height: 15px;
 	color: #E565FF;
 }
 
-table#recent_snatches, table#recent_uploads {table-layout: fixed;}
 
-#torrents tr.torrent:first-of-type {
-	background-color: #707;
-}
-tr.colhead td:nth-child(3) { 
-	text-align: left;
-}
-tr.colhead td { 
-	text-align: right;
-}
 
