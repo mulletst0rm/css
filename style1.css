@@ -920,6 +920,9 @@ table.cat_list  {
 #torrents tr:nth-child(even) {
     background-color: #404
 }
+#torrents form table  tr:nth-child(even) {
+    background-color: #000
+}
 #torrents table.layout tr td {
 	background-color: #000;
 }
