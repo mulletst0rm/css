@@ -12,7 +12,7 @@ body {
 	width: 100%;
 	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-size: 10pt;
-	color: #e666ff;
+	color: #EBD8AF;
 	background-color: #000;
 }
 
@@ -21,7 +21,7 @@ body {
 a {
 	text-decoration: none;
 	border: none;
-	color: #E565FF;
+	color: #EBD8AF;
 }
 a:hover {
 	text-decoration: underline;
@@ -163,7 +163,7 @@ span.size10 { font-size:3em; }
 	top: 0px;
 	width: 1100px;
 	margin: 0 auto 0px;
-	box-shadow: 0 0 100px #E565FF;
+	box-shadow: 0 0 45px #FFF8E7;
 }
 #header {
 	position:relative;
@@ -174,11 +174,12 @@ span.size10 { font-size:3em; }
     	width: 1100px;
     	height: 140px;
 	z-index: 1;
-	background: url('./purple/hex_bg.png');
+	/*! background: url('./purple/hex_bg.png'); */
+	background-color: #2b2926;
 }
 #content {
 	/*background: url("./purple/dark_bg.png") repeat scroll 0 0 transparent;*/
-	background: url("./purple/bg.png") repeat scroll 0 0 transparent;
+	/*! background: url("./purple/bg.png") repeat scroll 0 0 transparent; */
 	clear: both;
 	margin: 20px auto 0px;
 	overflow: hidden;
@@ -188,50 +189,56 @@ span.size10 { font-size:3em; }
 	text-align: center;
 	top: 0px;
 	width: 1100px;
+	background-color: #394858;
 }
 #footer {
 	display: block;
-	border-top: 1px solid #FF33CC;
+	border-top: 1px solid #EBD8AF;
 	background-color:  #000000;
-	background-image: url('./purple/footer_bg.png');
+	/*! background-image: url('./purple/footer_bg.png'); */
 	background-repeat: repeat-x;
 	width: 1100px;
 	text-align: justify;
 	padding: 1.2em 0;
 	margin: 0 auto;
 	min-height: 75px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fff0f5+0,2b2926+6 */
+background: rgb(255,240,245); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(255,240,245,1) 0%, rgba(43,41,38,1) 6%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,240,245,1) 0%,rgba(43,41,38,1) 6%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,240,245,1) 0%,rgba(43,41,38,1) 6%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff0f5', endColorstr='#2b2926',GradientType=0 ); /* IE6-9 */
 }
 #index #footer {
 	 min-height: 240px;
 }
 #footer p {
-	border-right: 1px solid #660066;
-	float: right;
-	height: 50px;
-	margin: 0 20px 0 0;
-	padding: 0 10px;
-	width: 100px; 
-	font-family: "Terminal","VT-100", monospace;
+	/*! border-right: 1px solid #528E81; */
+	/*! float: right; */
+	/*! height: 50px; */
+	/*! margin: 0 20px 0 0; */
+	/*! padding: 0 10px; */
+	/*! width: 100px; */ 
+	/*! font-family: "Terminal","VT-100", monospace; */
+	text-align: center;
 }
 #footer p:first-child {
 	padding: 0;
 	border: 0;
 	width: 200px;
 }
-#footer  p:last-child{
-	margin: 0;
-	width: 200px;
-}
+
 #disclaimer_container{
 	text-align: left!important;
-	background-color: #303;
+	background-color: #2B2926;
 	padding-left: 15px;
 	padding-bottom: 12px;
 	padding-top: 12px;
-	border-right: 2px solid #303;
-	border-left: 2px solid #505;
-	border-bottom: 2px solid #606;
+	border-right: 2px solid #202;
+	border-left: 2px solid #333;
+	border-bottom: 2px solid #444;
 	border-top: 2px solid #202;
+	color: #528E81;
 }
 #logo {
     	position:absolute;
@@ -241,7 +248,7 @@ span.size10 { font-size:3em; }
 	width: 294px;
 	height: 100px;
     	margin: 0 auto;
-	background: url('./purple/logo.png') no-repeat top left;
+	/*! background: url('./purple/logo.png') no-repeat top left; */
 }	
 #logo a {
 	position:absolute;
@@ -250,7 +257,7 @@ span.size10 { font-size:3em; }
 	border: none;
 	width: 266px;
 	height: 85px;
-    	display: block;
+    	/*! display: none; */
 }
 #logo a:hover {
 	border: none;
@@ -262,11 +269,17 @@ span.size10 { font-size:3em; }
     	width: 100%;
     	text-align: center;
     	background-color: #000000;
-	background: url('./purple/search_bar.png');
+	/*! background: url('./purple/search_bar.png'); */
     	padding: 2px 0px;
     	-moz-box-shadow: 1px 1px 10px #000;
     	-webkit-box-shadow: 1px 1px 10px #000;
     	box-shadow: 1px 1px 10px #000;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+50,e1e1e1+51,f6f6f6+100;White+Gloss+%231 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
 }
 #searchbars input {	
 	margin: 3px 3px 3px 3px;
@@ -341,11 +354,11 @@ span.size10 { font-size:3em; }
 }
 #userinfo_username .brackets:before {
 	content: "[";
-	color: #E565FF;
+	color: #EBD8AF;
 }
 #userinfo_username .brackets:after {
 	content: "]";
-	color: #E565FF;
+	color: #EBD8AF;
 }
 #userinfo_major{
 	position: absolute;
@@ -359,20 +372,20 @@ span.size10 { font-size:3em; }
 #userinfo_minor::before {
 	content: "\2261";
 	font-size: 4em;
-	color: #f2b3ff;
+	color: #EBD8AF;
 	width: 100px;
 	height: 34px;
 	font-weight: bold;
-	text-shadow: 0 0 10px #f1f, 0 0 2px #808, 0 0 2px #fff, 0 0 1px #d518ff, 0 0 30px #ff18f3, 0 0 40px #eb13e7, 0 0 55px #49ff18, 0 0 75px #f118ff;
+	/*! text-shadow: 0 0 10px #f1f, 0 0 2px #808, 0 0 2px #fff, 0 0 1px #d518ff, 0 0 30px #ff18f3, 0 0 40px #eb13e7, 0 0 55px #49ff18, 0 0 75px #f118ff; */
 }
 #userinfo_minor:hover::before {
 	content: "\2261";
 	font-size: 4em;
-	color: #f2b3ff;
+	color: #EBD8AF;
 	width: 100px;
 	height: 34px;
 	font-weight: bold;
-	text-shadow: 0 0 20px #f1f, 0 0 6px #808, 0 0 6px #fff, 0 0 4px #d518ff, 0 0 30px #ff18f3, 0 0 40px #eb13e7, 0 0 55px #49ff18, 0 0 75px #f118ff;
+	/*! text-shadow: 0 0 20px #f1f, 0 0 6px #808, 0 0 6px #fff, 0 0 4px #d518ff, 0 0 30px #ff18f3, 0 0 40px #eb13e7, 0 0 55px #49ff18, 0 0 75px #f118ff; */
 }
 #userinfo_minor {	
 	position: absolute;
@@ -388,11 +401,7 @@ span.size10 { font-size:3em; }
 #userinfo_minor li {
 	display: none!important;
 	background-color: #000;
-	padding: 3px 5px;
-	border-right: 1px solid #333;
-	border-left: 1px solid #111;	
-	border-bottom 4px solid #606;
-	box-shadow: 0 2px 6px 2px #660066;
+	padding: 3px 5px;box-shadow: 0 2px 6px 2px #8f94;	
 }
 #userinfo_minor li:first-of-type {
 	/*margin-top: 34px;*/
@@ -457,7 +466,7 @@ span.size10 { font-size:3em; }
 	display: inline;
 	padding: 3px 0;	
 	margin: 2px;
-	background-color:#660066;
+	background-color:#528E81;
 	-webkit-border-top-left-radius: 6px;
 	-webkit-border-top-right-radius: 6px;
 	-moz-border-radius-topleft: 6px;
@@ -478,7 +487,7 @@ span.size10 { font-size:3em; }
 	position: relative;
 	display: inline;
 	padding: 3px 0;
-	background-color:#990099;
+	background-color:#959c87;
 	-moz-border-radius-topleft:6px;
 	-webkit-border-top-left-radius:6px;
 	border-top-left-radius:6px;
@@ -529,7 +538,7 @@ p.min_padding {
 }
 .box {
     font-size: 10pt;
-    background-color: #000;
+    background-color: #528E81;
     margin-bottom: 10px;
     text-align: left;
 }
@@ -548,8 +557,8 @@ p.min_padding {
 .head {
 	padding: 8px !important;
 	/*! border-bottom: 1px solid #FF66CC; */
-	background-color: #505;
-	color: #e666ff;
+	background-color: #C4684C;
+	color: #EBD8AF;
 	text-align: left;
 }
 .main_column {
@@ -608,7 +617,7 @@ table {
 	margin-left: auto;
 	border-collapse: collapse;
 	/*! border: 2px solid #FF66CC; */
-	background-color: #000000;
+	background-color: #528E81;
 }
 .forum_list tr.rowa>td, .forum_list tr.rowb>td{
 	padding: 8px;
@@ -1538,6 +1547,3 @@ height: 15px;
 	font-weight: normal;
 	color: #E565FF;
 }
-
-
-
