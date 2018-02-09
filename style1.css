@@ -1035,7 +1035,7 @@ ul.poll li.graph {
 }
 
 /* Forum icons */
-
+/*
 .unread_locked_sticky{background: url("./purple/locked_sticky_unread.png") no-repeat center center;}
 .read_locked_sticky{background: url("./purple/locked_sticky_read.png") no-repeat center center;}
 .read_sticky{background: url("./purple/sticky_read.png") no-repeat center center;}
@@ -1044,7 +1044,7 @@ ul.poll li.graph {
 .read_locked{background: url("./purple/locked_read.png") no-repeat center center;}
 .unread{background: url("./purple/unread.png") no-repeat center center;}
 .read{background: url("./purple/read.png") no-repeat center center;}
-
+*/
 /* We're going to opt for the category icon method for now, tags_* is also available */
 
 .cats_applications { width: 28px; height: 28px; background: url('./purple/cat_app.png') no-repeat center center; }
@@ -1487,7 +1487,7 @@ height: 15px;
 /*last_read arrow, userhistory.php*/
 img[src$='/images/go_last_read.png'] {
 padding-right: 17px;
-content:"\2794";
+content:" ";
 display:inline;
 /*background: url('./purple/go_last_read.png')no-repeat center center;*/
 width:0px;
@@ -1496,7 +1496,7 @@ height: 15px;
 
 /*last_read arrow, forums.php*/
 
-.last_read { width: 15px; height: 15px; background: url('./purple/go_last_read.png') no-repeat center center; margin-left: 5px; margin-left: 5px;}
+.last_read::after { width: 15px; height: 15px; content:"\2794" ;margin-left: 5px; margin-left: 5px;}
 .last_read a { border: none; width: 100%; height: 100%; display: block; }
 .last_read a:hover { border: none; }
 
