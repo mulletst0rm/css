@@ -1,4 +1,3 @@
-/*fuschia_dark.css*/
 /* Global */
 
 * {
@@ -623,10 +622,10 @@ table {
 	padding: 8px;
 }
 tr.rowa {
-	background-color: #707;
+	background-color: #959C87;
 }
 tr.rowb {
-	background-color: #000000;
+	background-color: #866B67;
 }
 td {
 	padding: 0 10px;
@@ -635,8 +634,8 @@ td {
 	vertical-align: middle;
 }
 .colhead td{
-	background-color: #505 !important;
-	color: #e666ff;
+	background-color: #2F3C36 !important;
+	color: #EBD8AF;
 	font-size: 12pt !important;
 	font-weight: bold;
 	padding-top: 10px;
@@ -1488,9 +1487,9 @@ height: 15px;
 /*last_read arrow, userhistory.php*/
 img[src$='/images/go_last_read.png'] {
 padding-right: 17px;
-content:"";
+content:"\2794";
 display:inline;
-background: url('./purple/go_last_read.png')no-repeat center center;
+/*background: url('./purple/go_last_read.png')no-repeat center center;*/
 width:0px;
 height: 15px;
 }
