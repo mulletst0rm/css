@@ -832,23 +832,23 @@ table#recent_snatches, table#recent_uploads {
     white-space: pre-wrap;
 }
 #userform {
-	background-color:#000000;
+	background-color:#394858;
 }
 #userhistory td{
-	background-color:#000000;
+	background-color:#394858;
 }
 #userhistory .vertical_margin{
 	margin:5px;
 }
 #comments td.avatar, #comments td.body{
-	background-color: #000000;
+	background-color:#394858;
 }
 #user td{
 	background-color: #000000;
 	max-width:120px;
 }
 #upload tr{
-	background-color: #000000;
+	background-color: #394858;
 }
 
 /* Layout (Permission Page) */
