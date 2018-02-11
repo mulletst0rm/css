@@ -60,32 +60,46 @@ input, select, textarea ,text{
 	position: relative;
 	margin: 5px 1px 5px 1px;
 	padding: 1px 1px 1px 1px;
-	background-color: #528E81;
-	color: #EBD8AF;
-	border: solid 3px #EBD8AF;
+	background-color: #000;
+	color: #C0C;
+	border: solid 1px #C0C;
 	font-family: Tahoma, Helvetica, Verdana, Arial, sans-serif;
 	font-size: 8pt;
 }
 input[type="submit"], input[type="button"]{
+  	background: #909;
+ 	background-image: -webkit-linear-gradient(top, #909, #707);
+  	background-image: -moz-linear-gradient(top, #909, #707);
+ 	background-image: -ms-linear-gradient(top, #909, #707);
+  	background-image: -o-linear-gradient(top, #909, #707);
+  	background-image: linear-gradient(to bottom, #909, #707);
   	-webkit-border-radius: 9;
   	-moz-border-radius: 9;
   	border-radius: 9px;
-  	/*! -webkit-box-shadow: 0px 1px 14px #eb32eb; */
+  	-webkit-box-shadow: 0px 1px 14px #eb32eb;
   	-moz-box-shadow: 0px 1px 14px #eb32eb;
-  	/*! box-shadow: 0px 1px 14px #eb32eb; */
+  	box-shadow: 0px 1px 14px #eb32eb;
   	font-family: Arial;
-  	color: #EBD8AF;
+  	color: #ffc9ff;
   	font-size: 14px;
   	padding: 5px 14px;
   	text-decoration: none;
-  	font-weight: bold;
 }
 input[type="submit"]:hover, input[type="button"]:hover{
-	background: #959c87;
+	background: #d400d4;
+  	background-image: -webkit-linear-gradient(top, #d400d4, #7d017d);
+  	background-image: -moz-linear-gradient(top, #d400d4, #7d017d);
+  	background-image: -ms-linear-gradient(top, #d400d4, #7d017d);
+  	background-image: -o-linear-gradient(top, #d400d4, #7d017d);
+  	background-image: linear-gradient(to bottom, #d400d4, #7d017d);
+	-webkit-box-shadow: 0px 1px 20px #eb32eb;
+  	-moz-box-shadow: 0px 1px 20px #eb32eb;
+  	box-shadow: 0px 1px 20px #eb32eb;
+  	text-decoration: none;
 }
 input[type="submit"]:focus, input[type="button"]:focus{
-	background:#C4684C;
-	color: #999;
+	background:#606;
+	color: #E4ADED;
 }
 input[type="text"]:focus,input[type="password"]:focus {
 	background-color: #000;
@@ -633,7 +647,7 @@ td {
 	font-weight: bold;
 }
 tr.colhead_dark td {
-    background-color: #505 !important;
+    background-color: #C4684C;
     font-family: Tahoma, Helvetica, Verdana, Arial, sans-serif;
     font-size: 10pt;
 	vertical-align:bottom;
@@ -722,7 +736,7 @@ input.hidden {
 
 table.forum_post {
 	margin: 10px 0px;
-	border: 2px solid #e666ff;
+	/*! border: 2px solid #e666ff; */
 }
 table.forum_post td.body {
 	max-width:690px;
