@@ -1251,8 +1251,8 @@ ul.poll li.graph {
 	background: url('./purple/ost.png') top left no-repeat;
 }
 .tags_top_40, .tags_brit_pop, .tags_pop, .tags_pop_rock {
-	width: 30px;
-	height: 30px;
+	width: 70px;
+	height: 60px;
 	background: url('./purple/pop.png') top left no-repeat;
 }
 .tags_post_rock {
