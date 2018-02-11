@@ -918,10 +918,10 @@ table.cat_list  {
 	background-color: #528E81;
 }
 #top10 tr:nth-child(odd) {
-	 background-color: #528E81
+	 background-color: #959C87
 }
 #requests #request_table tr:nth-child(odd) {
-	 background-color: #528E81
+	 background-color: #959C87
 }
 #torrents tr:nth-child(even) {
     background-color: #528E81
