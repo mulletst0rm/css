@@ -60,7 +60,7 @@ input, select, textarea ,text{
 	position: relative;
 	margin: 5px 1px 5px 1px;
 	padding: 1px 1px 1px 1px;
-	background-color: #000;
+	background-color: #959c87;
 	color: #EBD8AF;
 	border: solid 3px #EBD8AF;
 	font-family: Tahoma, Helvetica, Verdana, Arial, sans-serif;
@@ -563,7 +563,7 @@ p.min_padding {
 	font-style: italic;
 }
 .tags a {
-	color: #FF65CC;
+	color: #EBD8AF;
 }
 .tags a:hover {
 	color: #FF65CC;
@@ -891,8 +891,8 @@ tr.discog{
 	width:580px;
 }
 td.edition_info {
-    background-color: #808;
-	color: #EE66FF;
+    background-color: #959c87;
+	color: #EBD8AF;
 	font-size:12px;
 	text-indent:0px;
 }
@@ -915,29 +915,27 @@ table.cat_list  {
 .torrent_table tr.torrent, .torrent_table tr.group {
 	font-weight:bold;
 	vertical-align:top;
-	background-color: #000;
+	background-color: #528E81;
 }
 #top10 tr:nth-child(odd) {
-	 background-color: #606
+	 background-color: #528E81
 }
 #requests #request_table tr:nth-child(odd) {
-	 background-color: #606
+	 background-color: #528E81
 }
 #torrents tr:nth-child(even) {
-    background-color: #404
+    background-color: #528E81
 }
 #torrents form table  tr:nth-child(even) {
     background-color: #000
 }
 #torrents table.layout tr td {
-	background-color: #000;
+	background-color: #528E81;
 }
 tr.group_torrent{
-	background-color: #000000!important;
+	background-color: #2b2926!important;
 }
-tr.group {
-	background-color: #707!important
-}
+
 .torrent_table div.tags {
 	font-weight:normal;
 }
