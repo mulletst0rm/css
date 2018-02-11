@@ -587,7 +587,7 @@ p.min_padding {
 	margin-left: auto;
 	width:100%;
 	overflow:auto;
-	margin-bottom: 15px;
+	/*! margin-bottom: 15px; */
 }
 .new-subscriptions{
 	border-bottom: 2px dotted #990099!important;	
@@ -900,8 +900,8 @@ td.edition_info {
 	border:none !important;
 }
 table.cat_list  {	
-	margin-top: 4px!important;
-	margin-bottom: 4px!important;
+	/*! margin-top: 4px!important; */
+	/*! margin-bottom: 4px!important; */
 }
 .filter_torrents  table{
 	margin-right:auto;
