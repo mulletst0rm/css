@@ -760,15 +760,15 @@ td.label {
 	width: 150px;
 }
 blockquote {
-    	background-color: #441144;
-    	border: 2px solid #e666ff;
-    	color: #e666ff !important;
+    	background-color: #444;
+    	border: 2px solid #EBD8AF;
+    	color: #EBD8AF;
     	margin: 15px;
     	padding: 10px;	
 	text-align: left!important;
 }
 blockquote>blockquote {
-	background-color: #330033;
+	background-color: #2b2926;
 }
 blockquote>blockquote>blockquote  {
 	background-color: #000000;
