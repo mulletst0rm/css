@@ -1291,8 +1291,8 @@ ul.poll li.graph {
 	background: url('./purple/rnb.png') top left no-repeat;
 }
 .tags_classic_rock, .tags_hard_rock, .tags_rock , .tags_southern.rock , .tags_instrumental_rock{
-	width: 30px;
-	height: 30px;
+	width: 70px;
+	height: 58px;
 	background: url('./purple/rock.png') top left no-repeat;
 }
 .tags_ska {
