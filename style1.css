@@ -542,10 +542,11 @@ p.min_padding {
     text-align: left;
 }
 .sidebar {
-	float: right;
-	width: 245px;
-	height: 100%;
-	text-align: left;
+    position: relative;
+    float: right;
+    width: 255px;
+    height: 100%;
+    text-align: left;
 }
 .sidebar .box {
 	margin: 0px 5px 10px 5px;
