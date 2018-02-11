@@ -808,7 +808,7 @@ table#recent_snatches, table#recent_uploads {
 	table-layout: fixed;
 }
 #torrents tr.torrent {
-	background-color: #707;
+	background-color: #959c87;
 }
 #staff table {
 	table-layout: fixed; 
@@ -927,7 +927,7 @@ table.cat_list  {
     background-color: #528E81
 }
 #torrents form table  tr:nth-child(even) {
-    background-color: #000
+    background-color: #528E81;
 }
 #torrents table.layout tr td {
 	background-color: #528E81;
