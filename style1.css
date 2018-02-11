@@ -626,7 +626,7 @@ tr.rowa {
 	background-color: #959C87;
 }
 tr.rowb {
-	background-color: #866B67;
+	background-color: #528E81;
 }
 td {
 	padding: 0 10px;
@@ -635,7 +635,7 @@ td {
 	vertical-align: middle;
 }
 .colhead td{
-	background-color: #2F3C36 !important;
+	background-color: #C4684C !important;
 	color: #EBD8AF;
 	font-size: 12pt !important;
 	font-weight: bold;
