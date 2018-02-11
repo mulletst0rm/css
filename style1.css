@@ -400,7 +400,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 #userinfo_minor li {
 	display: none!important;
 	background-color: #000;
-	padding: 3px 5px;box-shadow: 0 2px 6px 2px #8f94;	
+/*	padding: 3px 5px;box-shadow: 0 2px 6px 2px #fff;	*//
 }
 #userinfo_minor li:first-of-type {
 	/*margin-top: 34px;*/
@@ -410,8 +410,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	border: 1px solid #000;
 }
 #userinfo_minor li:hover {  
-	border-bottom: 1px solid #606;
-	border-top: 1px solid #606;
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #fff;
 }
 #userinfo_minor li:first-of-type {
   	padding-top: 4px;
@@ -432,7 +432,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 #userinfo_minor li a {
   	display: block;
 	background-color: #000;
-  	transition: all .4s linear;
+  	/*! transition: all .4s linear; */
 	padding: 6px 10px;
 	z-index: 400;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
@@ -675,7 +675,7 @@ div.alertbar a:hover {
 	text-decoration: none;
 }
 div.alertbar{
-	background-color: #660066;
+	background-color: #C4684C;
 	text-align: center;
 	font-weight: bold;
 	font-size: 0.95em;
@@ -683,9 +683,9 @@ div.alertbar{
 	padding-top: 2px;
 	padding-bottom: 10px;
 	margin-bottom: -7px;	
-	border-left: 3px solid #e666ff;
-	border-right: 3px solid #e666ff;
-	border-bottom: 3px solid #e666ff;	
+	border-left: 3px solid #EBD8AF;
+	border-right: 3px solid #EBD8AF;
+	border-bottom: 3px solid #EBD8AF;	
 	-webkit-border-bottom-right-radius: 10px;
 	-webkit-border-bottom-left-radius: 10px;
 	-moz-border-radius-bottomright: 10px;
