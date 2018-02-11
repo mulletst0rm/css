@@ -1292,7 +1292,7 @@ ul.poll li.graph {
 }
 .tags_classic_rock, .tags_hard_rock, .tags_rock , .tags_southern.rock , .tags_instrumental_rock{
 	width: 70px;
-	height: 58px;
+	height: 60px;
 	background: url('./purple/rock.png') top left no-repeat;
 }
 .tags_ska {
