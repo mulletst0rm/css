@@ -24,7 +24,7 @@ a {
 }
 a:hover {
 	text-decoration: underline;
-	color: #FE2E9A;
+	color: #c00;
 }
 h1,h2,h3,h4 {
 	margin: 3px 0px;
@@ -400,46 +400,51 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 #userinfo_minor li {
 	display: none!important;
 	background-color: #000;
-/*	padding: 3px 5px;box-shadow: 0 2px 6px 2px #fff;	*//
+  padding: 3px 5px;
 }
 #userinfo_minor li:first-of-type {
 	/*margin-top: 34px;*/
 }
 #userinfo_minor:hover li {
-  	display: block!important;
-	border: 1px solid #000;
+  display: block!important;
+	border-left: 3px solid #EBD8AF;
+	border-right: 3px solid #EBD8AF;
 }
+
 #userinfo_minor li:hover {  
-	border-bottom: 1px solid #fff;
-	border-top: 1px solid #fff;
+	margin-top: 0;
 }
 #userinfo_minor li:first-of-type {
-  	padding-top: 4px;
-	border-top: 1px solid #222;
+  padding-top: 0px;
+	border-top: 3px solid #EBD8AF;
 }
 #userinfo_minor li:hover:first-of-type {
-  	padding-top: 4px;
-	border-top: 1px solid #606;
+  padding-top: 0px;
 }
 #userinfo_minor li:last-of-type {
-	padding-bottom: 4px;
-	border-bottom: 1px solid #111;
+	padding-bottom: 0px;
+	border-bottom: 3px solid #EBD8AF;
 }
 #userinfo_minor li:hover:last-of-type {
-	padding-bottom: 4px;
-	border-bottom: 1px solid #606;
+	padding-bottom: 0px;
 }
 #userinfo_minor li a {
-  	display: block;
+  display: block;
 	background-color: #000;
-  	/*! transition: all .4s linear; */
-	padding: 6px 10px;
+  transition: all .2s linear; 
+	padding: 5px 10px;
 	z-index: 400;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 }
+#userinfo_minor li a:hover {
+  	display: block;
+	background-color: #528E81;
+  	 transition: all .1s linear; 
+}
+	
 #userinfo_minor:hover li:hover a {
 	text-decoration: none;
-	color: #FE2E9A;
+	color: #ddd;
+	
 }
 #userinfo ul li {
 	position: relative;
