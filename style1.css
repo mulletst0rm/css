@@ -1212,8 +1212,8 @@ ul.poll li.graph {
 	background: url('./purple/industrial.png') top left no-repeat;
 }
 .tags_free_jazz, .tags_jazz, .tags_hard.bop, .tags_.bebop, .tags_swing, .tags_bop, .tags_fusion, .tags_jazz.fusion .tags_nu.jazz {
-	width: 30px;
-	height: 30px;
+	width: 70px;
+	height: 60px;
 	background: url('./purple/jazz.png') top left no-repeat;
 }
 .tags_jpop {
