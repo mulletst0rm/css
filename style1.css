@@ -1142,8 +1142,8 @@ ul.poll li.graph {
 	background: url('./purple/dnb.png') top left no-repeat;
 }
 .tags_electronic {
-	width: 30px;
-	height: 30px;
+	width: 70px;
+	height: 60px;
 	background: url('./purple/electronic.png') top left no-repeat;
 }
 .tags_emo, .tags_screamo {
