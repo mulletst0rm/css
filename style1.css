@@ -1072,8 +1072,8 @@ ul.poll li.graph {
 	background: url('./purple/90s.png') top left no-repeat;
 }
 .tags_alternative {
-	width: 30px;
-	height: 30px;
+	width: 70px;
+	height: 60px;
 	background: url('./purple/alternative.png') top left no-repeat;
 }
 .tags_dark_ambient, .tags_ambient, .tags_drone {
