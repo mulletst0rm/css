@@ -1276,8 +1276,8 @@ ul.poll li.graph {
 	background: url('./purple/psytrance.png') top left no-repeat;
 }
 .tags_punk_rock, .tags_punk, .tags_post_punk, .tags_pop_punk {
-	width: 30px;
-	height: 30px;
+	width: 70px;
+	height: 60px;
 	background: url('./purple/punk.png') top left no-repeat;
 }
 .tags_reggae, .tags_dancehall_reggae, .tags_dancehall  {
