@@ -67,7 +67,7 @@ input, select, textarea ,text{
 	font-size: 8pt;
 }
 input[type="submit"], input[type="button"]{
-  	background: #528E81;
+  	background:#959c87;
    	-webkit-border-radius: 9;
   	-moz-border-radius: 9;
   	border-radius: 9px;
@@ -79,28 +79,28 @@ input[type="submit"], input[type="button"]{
   	text-decoration: none;
 }
 input[type="submit"]:hover, input[type="button"]:hover{
-	background: #959c87;
+	background:  #C4684C;
   	text-decoration: none;
 }
 input[type="submit"]:focus, input[type="button"]:focus{
-	background: #C4684C;
+	background: #a3aeb3;
 	color: #DDD;
 }
 input[type="text"]:focus,input[type="password"]:focus {
-	background-color: #000;
-	-moz-box-shadow: inset 1px 1px 10px #D798EA;
-	-webkit-box-shadow: inset 1px 1px 10px #D798EA;
-    	box-shadow: inset 1px 1px 10px #D798EA;
+		background-color: #a3aeb3;
+	-moz-box-shadow: inset 1px 1px 10px #798990;
+	-webkit-box-shadow: inset 1px 1px 10px #798990;
+    	box-shadow: inset 1px 1px 10px #798990;
 }
 textarea {
 	width: 98%!important;
 	padding: 2px 3px;
 }
 textarea:focus {
-	background-color: #000;
-	-moz-box-shadow: inset 1px 1px 10px #D798EA;
-	-webkit-box-shadow: inset 1px 1px 10px #D798EA;
-    	box-shadow: inset 1px 1px 10px #D798EA;
+	background-color: #a3aeb3;
+	-moz-box-shadow: inset 1px 1px 10px #798990;
+	-webkit-box-shadow: inset 1px 1px 10px #798990;
+    	box-shadow: inset 1px 1px 10px #798990;
 }
 img {
 	border: none;
