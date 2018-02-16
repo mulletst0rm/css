@@ -147,7 +147,7 @@ span.size10 { font-size:3em; }
 	top: 0px;
 	width: 1100px;
 	margin: 0 auto 0px;
-	box-shadow: 0 0 45px #FFF8E7;
+	/*! box-shadow: 0 0 45px #FFF8E7; */
 }
 #header {
 	position:relative;
@@ -392,39 +392,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 #userinfo_minor:hover li {
   	display: block!important;
-	border: 1px solid #000;
 }
 #userinfo_minor li:hover {  
-	border-bottom: 1px solid #fff;
-	border-top: 1px solid #fff;
 }
 #userinfo_minor li:first-of-type {
-  	padding-top: 4px;
-	border-top: 1px solid #222;
 }
 #userinfo_minor li:hover:first-of-type {
-  	padding-top: 4px;
-	border-top: 1px solid #606;
+  
 }
 #userinfo_minor li:last-of-type {
-	padding-bottom: 4px;
-	border-bottom: 1px solid #111;
 }
 #userinfo_minor li:hover:last-of-type {
-	padding-bottom: 4px;
-	border-bottom: 1px solid #606;
 }
 #userinfo_minor li a {
   	display: block;
-	background-color: #000;
+	background-color: #C4684C;
   	/*! transition: all .4s linear; */
 	padding: 6px 10px;
 	z-index: 400;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+	/*! text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); */
 }
 #userinfo_minor:hover li:hover a {
 	text-decoration: none;
-	color: #FE2E9A;
+	color: #EBD8AF;	
+	background-color: #528E81;
 }
 #userinfo ul li {
 	position: relative;
@@ -620,7 +611,7 @@ td {
 	vertical-align: middle;
 }
 .colhead td{
-	background-color: #C4684C !important;
+	background-color: #C4684C;
 	color: #EBD8AF;
 	font-size: 12pt !important;
 	font-weight: bold;
