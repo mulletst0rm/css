@@ -24,7 +24,7 @@ a {
 }
 a:hover {
 	text-decoration: underline;
-	color: #FE2E9A;
+	color: ghostwhite;
 }
 h1,h2,h3,h4 {
 	margin: 3px 0px;
@@ -388,29 +388,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 /*	padding: 3px 5px;box-shadow: 0 2px 6px 2px #fff;	*//
 }
 #userinfo_minor li:first-of-type {
-	/*margin-top: 34px;*/
+	border-top: 3px solid #EBD8AF;
+}
+#userinfo_minor li:last-of-type {	
+	border-bottom: 3px solid #EBD8AF;
 }
 #userinfo_minor:hover li {
-  	display: block!important;
-}
-#userinfo_minor li:hover {  
-}
-#userinfo_minor li:first-of-type {
-}
-#userinfo_minor li:hover:first-of-type {
-  
-}
-#userinfo_minor li:last-of-type {
-}
-#userinfo_minor li:hover:last-of-type {
+  display: block!important;	
+	border-left: 3px solid #EBD8AF;
+	border-right: 3px solid #EBD8AF;	 
 }
 #userinfo_minor li a {
   	display: block;
 	background-color: #C4684C;
-  	/*! transition: all .4s linear; */
+   transition: all .2s linear; 
 	padding: 6px 10px;
 	z-index: 400;
-	/*! text-shadow: 1px 1px 1px rgba(0, 0, 0, 1); */
 }
 #userinfo_minor:hover li:hover a {
 	text-decoration: none;
@@ -647,8 +640,8 @@ table.slice {
 	text-decoration:underline;
 }
 div.alertbar a:hover {
-	color: #FE2E9A;
-	text-decoration: none;
+	color: ghostwhite;
+	/*! text-decoration: none; */
 }
 div.alertbar{
 	background-color: #C4684C;
@@ -784,7 +777,7 @@ table.forum_list tr.rowb td:first-child {
 	background-color: #000000;
 }
 tr.unreadpm {
-	background-color:#996699!important;
+	background-color:#996699 !important;
 }
 #top10 table.border{
 	background-color: #000000;
