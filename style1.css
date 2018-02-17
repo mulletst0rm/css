@@ -1528,7 +1528,7 @@ height: 15px;
 	float: left;
 }
 #nav_uploaded a:before {
-	content: "🡹";
+	content: "🢁";
 	float: left;
 }
 #nav_bookmarks a:before {
