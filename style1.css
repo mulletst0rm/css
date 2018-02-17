@@ -369,7 +369,6 @@ background-image: linear-gradient(to bottom, #959595 0%, #0D0D0D 46%, #010101 50
 }
 #userinfo_minor:hover::before {
 	content: "\2261";
-	font-size: 4em;
 	color: #EBD8AF;
 	width: 100px;
 	height: 34px;
@@ -1528,7 +1527,7 @@ height: 15px;
 	float: left;
 }
 #nav_uploaded a:before {
-	content: "🢁";
+	content: "🡹";
 	float: left;
 }
 #nav_bookmarks a:before {
@@ -1548,8 +1547,7 @@ height: 15px;
 }
 #nav_comments a:before {
 	content: "🗣";
-	font-size:1.3em;
-	float: left;
+		float: left;
 }
 #nav_friends a:before {
 	content: "🙋";
@@ -1561,7 +1559,7 @@ height: 15px;
 }
 #nav_random a:before {
 	content: "⚡";
-	font-size:1.3em;
+		font-size:1.3em;
 	font-weight: bold;
 	float: left;
 }
