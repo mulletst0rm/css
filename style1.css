@@ -1519,3 +1519,48 @@ height: 15px;
 	font-weight: normal;
 	color: #E565FF;
 }
+#nav_inbox a:before {
+	content: "📥";
+	float: left;
+}
+#nav_staffinbox a:before{
+	content: "📫";
+	float: left;
+}
+#nav_uploaded a:before {
+	content: "🡹";
+	float: left;
+}
+#nav_bookmarks a:before {
+	content: "📑";
+	float: left;
+}
+#nav_notifications a:before {
+	content: "❗";
+	color:#c00;
+	font-size:1.3em;
+	font-weight: bold;
+	float: left;
+}
+#nav_subscriptions a:before {
+	content: "📰";
+	float: left;
+}
+#nav_comments a:before {
+	content: "🗣";
+		float: left;
+}
+#nav_friends a:before {
+	content: "🙋";
+	float: left;
+}
+#nav_better a:before {
+	content: "👍";
+	float: left;
+}
+#nav_random a:before {
+	content: "⚡";
+		font-size:1.3em;
+	font-weight: bold;
+	float: left;
+}
