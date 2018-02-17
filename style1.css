@@ -578,7 +578,6 @@ p.min_padding {
 	/*! margin-bottom: 15px; */
 }
 .new-subscriptions{
-	border-bottom: 2px dotted #990099!important;	
 	font-weight:normal !important;
 } 
 ul.nobullet {
@@ -1573,6 +1572,14 @@ height: 15px;
 #nav_subscriptions a:before {
 	content: "📰";
 	float: left;
+}
+ li.new-subscriptions  a:before {
+	content:" ";
+		
+	 width: 20px;
+	 height: 30px;
+	background: url('./purple/fire.gif') no-repeat center center ;
+	 background-size: auto 30px;
 }
 #nav_comments a:before {
 	content: "🗣";
