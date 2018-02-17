@@ -1548,7 +1548,8 @@ height: 15px;
 }
 #nav_comments a:before {
 	content: "🗣";
-		float: left;
+	font-size:1.3em;
+	float: left;
 }
 #nav_friends a:before {
 	content: "🙋";
@@ -1560,7 +1561,7 @@ height: 15px;
 }
 #nav_random a:before {
 	content: "⚡";
-		font-size:1.3em;
+	font-size:1.3em;
 	font-weight: bold;
 	float: left;
 }
