@@ -1431,30 +1431,53 @@ ul.poll li.graph {
 
 /*snatched, seeders, leechers icons*/
 
+
+td.snatches a::before {
+	content: '↺';
+	width:0px;
+  height: 15px;
+	font-size: 2em;
+}
+td.snatches a:hover{
+	text-decoration: none!important;
+}
 img[src$='/images/snatched.png'] {
-padding-right: 15px;
-content:" ";
-display:block;
-background: url('./purple/snatched.png')no-repeat center center;
-width:0px;
-height: 15px;
+
+display:none;
+/*background: url('./purple/snatched.png')no-repeat center center;*/
+
+}
+td.seeders a::before {
+	content: '🡹';
+	width:0px;
+  height: 15px;
+	font-size: 1.5em;
+}
+td.seeders a:hover{
+	text-decoration: none!important;
 }
 img[src$='/images/seeders.png'] {
-padding-right: 11px;
-content:"";
-display:block;
-background: url('./purple/seeders.png')no-repeat center center;
-width:0px;
-height: 15px;
+
+display:none;
+
+
+}
+td.leechers a::before {
+	content: '🡻';
+	width:0px;
+  height: 15px;
+	font-size: 1.5em;
+}
+td.leechers a:hover{
+	text-decoration: none!important;
 }
 img[src$='/images/leechers.png'] {
-padding-right: 11px;
-content:"";
-display:block;
-background: url('./purple/leechers.png')no-repeat center center;
-width:0px;
-height: 15px;
+
+display:none;
+
+
 }
+
 
 /*last_read arrow, userhistory.php*/
 img[src$='/images/go_last_read.png'] {
