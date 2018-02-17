@@ -1491,9 +1491,15 @@ height: 15px;
 
 /*last_read arrow, forums.php*/
 
-.last_read::after { width: 15px; height: 15px; content:"\2794" ;margin-left: 5px; margin-left: 5px;}
-.last_read a { border: none; width: 100%; height: 100%; display: block; }
-.last_read a:hover { border: none; }
+.last_read a::after {
+	content: '\2794';
+	font-size: 1.5em;
+	line-height: 18px;
+	clear: both;
+}
+.last_read a:hover{
+	text-decoration: none!important;
+}
 
 
 /*image lightbox*/
