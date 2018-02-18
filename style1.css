@@ -1,5 +1,5 @@
 /* Global */
-@import url('https://fonts.googleapis.com/css?family=Pacifico|Playfair+Display+SC|Playfair+Display|Nunito');
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Playfair+Display+SC|Playfair+Display|Nunito|Noto+Sans');
 
 * {
 	padding: 0em;
@@ -30,7 +30,7 @@ a:hover {
 h1,h2,h3,h4 {
 	margin: 3px 0px;
 	font-weight: bold;
-	font-family: 'Playfair Display SC', serif;
+	font-family: "Segoe UI", "Lucida Grande", Calibri, Tahoma, Helvetica, Verdana, Arial, sans-serif;
 }
 h1{
 	font-size: 17pt;
@@ -64,7 +64,7 @@ input, select, textarea ,text{
 	background-color: #959c87;
 	color: #EBD8AF;
 	border: solid 3px #EBD8AF;
-	font-family: Nunito, sans-serif;
+	font-family: Tahoma, Helvetica, Verdana, Arial, sans-serif;
 	font-size: 8pt;
 }
 input[type="submit"], input[type="button"]{
@@ -72,7 +72,7 @@ input[type="submit"], input[type="button"]{
    	-webkit-border-radius: 9;
   	-moz-border-radius: 9;
   	border-radius: 9px;
-   	font-family: Nunito, sans-serif;
+   	font-family: Arial;
   	color: #EBD8AF;
   	font-size: 14px;
   	padding: 5px 14px;
@@ -592,7 +592,7 @@ td {
 }
 tr.colhead_dark td {
     background-color: #C4684C;
-    font-family: Nunito, sans-serif;
+    font-family: Tahoma, Helvetica, Verdana, Arial, sans-serif;
     font-size: 10pt;
 	vertical-align:bottom;
 	padding: 10px 6px 4px;
@@ -1519,55 +1519,64 @@ height: 15px;
 	color: #E565FF;
 }
 #nav_inbox a:before {
-	content: "📥";
+	content: "\1F4E5";
 	float: left;
+	font-family: 'Noto Sans', sans-serif;
 }
 #nav_staffinbox a:before{
-	content: "📫";
+	content: "\1F4EB";
 	float: left;
+	font-family: 'Noto Sans', sans-serif;
 }
 #nav_uploaded a:before {
-	content: "🡹";
+	content: "\1f879";
 	float: left;
+	font-family: 'Noto Sans', sans-serif;
 }
 #nav_bookmarks a:before {
-	content: "📑";
+	content: "\1f4d1";
 	float: left;
+	font-family: 'Noto Sans', sans-serif;
 }
 #nav_notifications a:before {
-	content: "❗";
+	content: "\2757";
 	color:#c00;
 	font-size:1.3em;
 	font-weight: bold;
 	float: left;
+	font-family: 'Noto Sans', sans-serif;
 }
 #nav_subscriptions a:before {
-	content: "📰";
+	content: "\1F4F0";
 	float: left;
+	font-family: 'Noto Sans', sans-serif;
 }
  li.new-subscriptions  a:before {
-	content:" ";
-		
-	 width: 20px;
-	 height: 30px;
+	content:" ";		
+	width: 20px;
+	height: 30px;
 	background: url('./purple/fire.gif') no-repeat center center ;
-	 background-size: auto 30px;
+	background-size: auto 30px;
 }
 #nav_comments a:before {
-	content: "🗣";
-		float: left;
+	content: "\1F5E3";
+	float: left;
+	font-family: 'Noto Sans', sans-serif;
 }
 #nav_friends a:before {
-	content: "🙋";
+	content: "\1F64B";
 	float: left;
+	font-family: 'Noto Sans', sans-serif;
 }
 #nav_better a:before {
-	content: "👍";
+	content: "\1F44D";
 	float: left;
+	font-family: 'Noto Sans', sans-serif;
 }
 #nav_random a:before {
-	content: "⚡";
-		font-size:1.3em;
+	content: "\26A1";
+	font-size:1.3em;
 	font-weight: bold;
 	float: left;
+	font-family: 'Noto Sans', sans-serif;
 }
