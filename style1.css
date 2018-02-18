@@ -1,7 +1,6 @@
 /* Global */
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Playfair+Display+SC|Playfair+Display|Nunito');
+
 * {
 	padding: 0em;
 	margin: 0em;
@@ -11,7 +10,7 @@ html {
 }
 body {
 	width: 100%;
-	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-size: 10pt;
 	color: #EBD8AF;
 	background-color: #000;
