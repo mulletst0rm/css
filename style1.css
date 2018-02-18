@@ -555,6 +555,7 @@ table {
 	/*! border: 2px solid #FF66CC; */
 	background-color: #528E81;
 }
+
 .forum_list tr.rowa>td, .forum_list tr.rowb>td{
 	padding: 8px;
 }
@@ -727,12 +728,6 @@ blockquote>blockquote>blockquote  {
 blockquote.log_bad, blockquote.log_score {
     	background-color: #000000;
     	border: 1px solid #e666ff;
-}
-table.forum_index tr.rowb td:first-child {
-    	padding: 0px 12px 0px 20px;
-}
-table.forum_list tr.rowb td:first-child {
-    	padding: 9px;
 }
 
 /* Misc */
