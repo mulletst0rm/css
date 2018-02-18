@@ -1411,7 +1411,7 @@ display:none;
 
 }
 td.seeders a::before {
-	content: '\1F851';
+	content: '\21E7';
 	width:0px;
   height: 15px;
 	font-size: 1.5em;
@@ -1426,7 +1426,7 @@ display:none;
 
 }
 td.leechers a::before {
-	content: '\iF853';
+	content: '\21E9';
 	width:0px;
   height: 15px;
 	font-size: 1.5em;
