@@ -980,7 +980,7 @@ ul.poll li.graph {
 .read_sticky:before{
 	content: '\2606';
 }
-unread_locked:before{
+.unread_locked:before{
 	content: '\1F5CB\1F512';
 	white-space: nowrap;
 }
