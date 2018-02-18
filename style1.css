@@ -1,5 +1,7 @@
 /* Global */
-
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 * {
 	padding: 0em;
 	margin: 0em;
@@ -207,10 +209,12 @@ span.size10 { font-size:3em; }
 	border-top: 2px solid #202;
 	color: #528E81;
 }
-#logo {
+#logo:before {
   position:absolute;
-	font-size: 1em;
-  left:0px;
+	content:"Apollo.rip";
+	font-family: 'Pacifico', cursive;
+	font-size: 3em;
+  left:20px;
   top:0px;
 	width: 294px;
 	height: 100px;
@@ -247,7 +251,7 @@ span.size10 { font-size:3em; }
 #searchbars input {	
 	margin: 4px 4px 3px 3px;
 	padding: 6px 2px 4px 7px;
-	font-family: Tahoma, Helvetica, Verdana, Arial, sans-serif;
+	font-family: 'Playfair Display SC', serif;
 	font-size: 1em;
 	color: #999;
 	background-color: #222;
@@ -409,8 +413,8 @@ border-radius: 5px;
 	width: 100%;
 	padding: .5em 0;
 	text-align: center;
-	font-family: "Segoe UI", Calibri, Tahoma, Helvetica, Verdana, Arial, sans-serif;
-	font-size: 10pt;
+	font-family: 'Playfair Display', serif;
+	font-size: 1.1em;
 	letter-spacing: 0px;
 	word-spacing: 3px;
 }
