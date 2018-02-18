@@ -30,7 +30,7 @@ a:hover {
 h1,h2,h3,h4 {
 	margin: 3px 0px;
 	font-weight: bold;
-	font-family: "Segoe UI", "Lucida Grande", Calibri, Tahoma, Helvetica, Verdana, Arial, sans-serif;
+	font-family: 'Playfair Display SC', serif;
 }
 h1{
 	font-size: 17pt;
@@ -64,7 +64,7 @@ input, select, textarea ,text{
 	background-color: #959c87;
 	color: #EBD8AF;
 	border: solid 3px #EBD8AF;
-	font-family: Tahoma, Helvetica, Verdana, Arial, sans-serif;
+	font-family: Nunito, sans-serif;
 	font-size: 8pt;
 }
 input[type="submit"], input[type="button"]{
@@ -72,7 +72,7 @@ input[type="submit"], input[type="button"]{
    	-webkit-border-radius: 9;
   	-moz-border-radius: 9;
   	border-radius: 9px;
-   	font-family: Arial;
+   	font-family: Nunito, sans-serif;
   	color: #EBD8AF;
   	font-size: 14px;
   	padding: 5px 14px;
@@ -592,7 +592,7 @@ td {
 }
 tr.colhead_dark td {
     background-color: #C4684C;
-    font-family: Tahoma, Helvetica, Verdana, Arial, sans-serif;
+    font-family: Nunito, sans-serif;
     font-size: 10pt;
 	vertical-align:bottom;
 	padding: 10px 6px 4px;
