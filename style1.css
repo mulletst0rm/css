@@ -980,15 +980,27 @@ ul.poll li.graph {
 }
 .read_locked_sticky:before{
 	content: '\2606\1F512';
-	white-space: nowrap
+	white-space: nowrap;
 }
 .read_sticky:before{
 	content: '\2606';
 }
-.unread_locked{background: url("./purple/locked_unread.png") no-repeat center center;}
-.read_locked{background: url("./purple/locked_read.png") no-repeat center center;}
-.unread{background: url("./purple/unread.png") no-repeat center center;}
-.read{background: url("./purple/read.png") no-repeat center center;}
+unread_locked:before{
+	content: '\1F5CB\1F512';
+	white-space: nowrap;
+}
+.read_locked:before{
+	content: '\1F4C4\1F512';
+	white-space: nowrap;
+}
+.unread:before{
+	content: '+\2709';
+}
+.read:before{
+	content: '\2709';
+}
+
+
 
 /* We're going to opt for the category icon method for now, tags_* is also available */
 
