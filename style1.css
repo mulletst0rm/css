@@ -973,12 +973,14 @@ ul.poll li.graph {
 
 .unread_locked_sticky:before{
 	content: '\2605\1F512';
+	white-space: nowrap
 }
 .unread_sticky:before{
 	content: '\2605';
 }
 .read_locked_sticky:before{
 	content: '\2606\1F512';
+	white-space: nowrap
 }
 .read_sticky:before{
 	content: '\2606';
