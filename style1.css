@@ -1521,7 +1521,7 @@ height: 15px;
 	font-family: 'Noto Sans', sans-serif;
 }
 #nav_uploaded a:before {
-	content: "\1F851";
+	content: "\21E7";
 	float: left;
 	font-family: 'Noto Sans', sans-serif;
 }
