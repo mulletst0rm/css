@@ -1,5 +1,5 @@
 /* Global */
-@import url('https://fonts.googleapis.com/css?family=Pacifico|Nunito|Just+Another+Hand');
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Playfair+Display+SC|Playfair+Display|Nunito|Noto+Sans');
 
 * {
 	padding: 0em;
@@ -10,7 +10,7 @@ html {
 }
 body {
 	width: 100%;
-	font-family: Nunito, sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-size: 10pt;
 	color: #EBD8AF;
 	background-color: #000;
@@ -29,7 +29,8 @@ a:hover {
 }
 h1,h2,h3,h4 {
 	margin: 3px 0px;
-	font-weight: bold;	
+	font-weight: bold;
+	font-family: "Segoe UI", "Lucida Grande", Calibri, Tahoma, Helvetica, Verdana, Arial, sans-serif;
 }
 h1{
 	font-size: 17pt;
@@ -63,7 +64,7 @@ input, select, textarea ,text{
 	background-color: #959c87;
 	color: #EBD8AF;
 	border: solid 3px #EBD8AF;
-	font-family:Nunito, sans-serif;
+	font-family: Tahoma, Helvetica, Verdana, Arial, sans-serif;
 	font-size: 8pt;
 }
 input[type="submit"], input[type="button"]{
@@ -71,7 +72,7 @@ input[type="submit"], input[type="button"]{
    	-webkit-border-radius: 9;
   	-moz-border-radius: 9;
   	border-radius: 9px;
-   	font-family: Nunito, sans-serif;
+   	font-family: Arial;
   	color: #EBD8AF;
   	font-size: 14px;
   	padding: 5px 14px;
@@ -249,8 +250,9 @@ span.size10 { font-size:3em; }
 #searchbars input {	
 	margin: 4px 4px 3px 3px;
 	padding: 6px 2px 4px 7px;
+	font-family: 'Playfair Display SC', serif;
 	font-size: 1em;
-	color: #EBD8AF;
+	color: #999;
 	background-color: #222;
 	-webkit-border-radius: 5px;
 -moz-border-radius: 5px;
@@ -319,10 +321,9 @@ border-radius: 5px;
 }
 #userinfo_stats {
 	position: absolute;
-	top: 95px;
-	left: 35px;
-	font-size: 1.1em;
-	font-family: Nunito, sans-serif;
+	top: 92px;
+	left: 50px;
+	font-size: 1em;
 }
 #userinfo_username .brackets:before {
 	content: "[";
@@ -334,12 +335,11 @@ border-radius: 5px;
 }
 #userinfo_major{
 	position: absolute;
-	top: 95px;
+	top: 88px;
 	right:30px;
 	padding: 0.1em 0;
 	text-align: right;
-	font-size: 1.1em;
-	font-family: Nunito, sans-serif;
+	font-size: 1.2em;
 }
 
 #userinfo_minor::before {
@@ -404,7 +404,7 @@ border-radius: 5px;
 	width: 100%;
 	padding: .5em 0;
 	text-align: center;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Playfair Display', serif;
 	font-size: 1.1em;
 	letter-spacing: 0px;
 	word-spacing: 3px;
@@ -585,7 +585,7 @@ td {
 }
 tr.colhead_dark td {
     background-color: #C4684C;
-    font-family: Nunito, sans-serif;
+    font-family: Tahoma, Helvetica, Verdana, Arial, sans-serif;
     font-size: 10pt;
 	vertical-align:bottom;
 	padding: 10px 6px 4px;
@@ -1530,18 +1530,22 @@ height: 15px;
 #nav_inbox a:before {
 	content: "\1F4E5";
 	float: left;
+	font-family: 'Noto Sans', sans-serif;
 }
 #nav_staffinbox a:before{
 	content: "\1F4EB";
 	float: left;
+	font-family: 'Noto Sans', sans-serif;
 }
 #nav_uploaded a:before {
 	content: "\21E7";
 	float: left;
+	font-family: 'Noto Sans', sans-serif;
 }
 #nav_bookmarks a:before {
 	content: "\1f4d1";
 	float: left;
+	font-family: 'Noto Sans', sans-serif;
 }
 #nav_notifications a:before {
 	content: "\2757";
@@ -1549,10 +1553,12 @@ height: 15px;
 	font-size:1.3em;
 	font-weight: bold;
 	float: left;
+	font-family: 'Noto Sans', sans-serif;
 }
 #nav_subscriptions a:before {
 	content: "\1F4F0";
 	float: left;
+	font-family: 'Noto Sans', sans-serif;
 }
  li.new-subscriptions  a:before {
 	content:" ";		
@@ -1564,19 +1570,23 @@ height: 15px;
 #nav_comments a:before {
 	content: "\1F5E3";
 	float: left;
+	font-family: 'Noto Sans', sans-serif;
 }
 #nav_friends a:before {
 	content: "\1F64B";
 	float: left;
+	font-family: 'Noto Sans', sans-serif;
 }
 #nav_better a:before {
 	content: "\1F44D";
 	float: left;
+	font-family: 'Noto Sans', sans-serif;
 }
 #nav_random a:before {
 	content: "\26A1";
 	font-size:1.3em;
 	font-weight: bold;
 	float: left;
+	font-family: 'Noto Sans', sans-serif;
 }
 /* */
