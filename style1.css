@@ -250,16 +250,21 @@ background: linear-gradient(to bottom, rgba(43,41,38,1) 0%, rgba(235,227,211,1) 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2b2926', endColorstr='#9e8967', GradientType=0 );
 }
 #searchbars input {	
-	margin: 4px 4px 3px 3px;
+	margin: 6px 3px 3px 4px;
 	padding: 6px 2px 4px 7px;
-	font-family: 'Playfair Display SC', serif;
+	border-radius: 4px 4px 4px 4px;
+-moz-border-radius: 4px 4px 4px 4px;
+-webkit-border-radius: 4px 4px 4px 4px;
+font-family: 'Playfair Display SC', serif;
+	font-weight: bolder;
 	font-size: 1em;
-	color: #999;
-	background-color: #222;
-	-webkit-border-radius: 5px;
--moz-border-radius: 5px;
-border-radius: 5px;
-	border: 1px  #555;
+	letter-spacing: 2px;
+	color: #996666;
+	background-color: #FFF8E7;
+	-moz-box-shadow: inset 1px 1px 7px #966;
+	-webkit-box-shadow: inset 1px 1px 7px #966;
+    	box-shadow: inset 1px 1px 7px #966;
+	border: 2px inset #FFF0F5;
 	width: 111px;
 	
 }
