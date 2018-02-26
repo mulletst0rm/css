@@ -1013,22 +1013,34 @@ ul.poll li.graph {
 
 /* We're going to opt for the category icon method for now, tags_* is also available */
 
-.cats_applications { width: 28px; height: 28px; background: url('./purple/cat_app.png') no-repeat center center; }
-.cats_audiobooks { width: 28px; height: 28px; background: url('./purple/cat_audiobook.png') no-repeat center center; }
-.cats_comedy { width: 28px; height: 28px; background: url('./purple/cat_comedy.png') no-repeat center center; }
-.cats_comics { width: 28px; height: 28px; background: url('./purple/cat_comics.png') no-repeat center center; }
-.cats_ebooks { width: 28px; height: 28px; background: url('./purple/cat_ebook.png') no-repeat center center; }
-.cats_elearningvideos { width: 28px; height: 28px; background: url('./purple/cat_elearn.png') no-repeat center center; }
-.cats_music { width: 28px; height: 28px; background: url('./purple/cat_music.png') no-repeat center center; }
-
-/* tags_* genre icons*/
-
-/*   No tag fix   */
-
-.cats_music {
-	width: 30px;
-	height: 30px;
-	background: url('./purple/cat_music.png') top left no-repeat;
+.cats_applications:before{
+	content: '\1F5AB';
+	font-size: 3em;
+}
+.cats_audiobooks:before{
+	content: '\1F5E3 ';
+	font-size: 3em;
+}
+.cats_comedy:before{
+	content: '\1F3AD';
+	font-size: 3em;
+}
+.cats_comics:before{
+	content: '\1F5F1';
+	font-size: 3em;
+}
+.cats_ebooks:before{
+	content: '\f02d';
+	font-size: 3em;
+	font-family: FontAwesome;
+}
+.cats_elearningvideos:before{
+	content: '\1F4F9';
+	font-size: 3em;
+}
+.cats_music:before{
+	content: '\266b';
+	font-size: 3em;
 }
 
 
