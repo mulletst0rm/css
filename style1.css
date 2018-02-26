@@ -1020,12 +1020,14 @@ ul.poll li.graph {
 	font-size: 3em;
 }
 .cats_audiobooks:before{
-	content: '\1F5E3 ';
-	font-size: 3em;
+	content: '\F27A ';
+	font-size: 3em;	
+	font-family: FontAwesome;
 }
 .cats_comedy:before{
-	content: '\1F3AD';
-	font-size: 3em;
+	content: '\F118';
+	font-size: 3em;	
+	font-family: FontAwesome;
 }
 .cats_comics:before{
 	content: '\1F5F1';
@@ -1037,8 +1039,9 @@ ul.poll li.graph {
 	font-family:FontAwesome;
 }
 .cats_elearningvideos:before{
-	content: '\1F4F9';
+	content: '\f03d';
 	font-size: 3em;
+	font-family: FontAwesome;
 }
 .cats_music:before{
 	content: '\f001';
